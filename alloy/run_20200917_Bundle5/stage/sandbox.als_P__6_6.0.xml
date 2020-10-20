@@ -1,0 +1,3051 @@
+<alloy builddate="2015-02-22 18:21 EST">
+
+<instance bitwidth="0" maxseq="0" command="Check P__6" filename="">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement" ID="4" parentID="5" one="yes">
+   <atom label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement$0"/>
+</sig>
+
+<sig label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector" ID="6" parentID="5" one="yes">
+   <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector$0"/>
+</sig>
+
+<sig label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement" ID="7" parentID="5" one="yes">
+   <atom label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement$0"/>
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor" ID="8" parentID="5" one="yes">
+   <atom label="cap_contactSensor/cap_contactSensor$0"/>
+</sig>
+
+<sig label="cap_illuminanceMeasurement/cap_illuminanceMeasurement" ID="9" parentID="5" one="yes">
+   <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement$0"/>
+</sig>
+
+<sig label="cap_location/cap_location" ID="10" parentID="5" one="yes">
+   <atom label="cap_location/cap_location$0"/>
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor" ID="11" parentID="5" one="yes">
+   <atom label="cap_motionSensor/cap_motionSensor$0"/>
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor" ID="12" parentID="5" one="yes">
+   <atom label="cap_presenceSensor/cap_presenceSensor$0"/>
+</sig>
+
+<sig label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement" ID="13" parentID="5" one="yes">
+   <atom label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector" ID="14" parentID="5" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector$0"/>
+</sig>
+
+<sig label="cap_switch/cap_switch" ID="15" parentID="5" one="yes">
+   <atom label="cap_switch/cap_switch$0"/>
+</sig>
+
+<sig label="cap_switchLevel/cap_switchLevel" ID="16" parentID="5" one="yes">
+   <atom label="cap_switchLevel/cap_switchLevel$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement" ID="17" parentID="5" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement$0"/>
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat" ID="18" parentID="5" one="yes">
+   <atom label="cap_thermostat/cap_thermostat$0"/>
+</sig>
+
+<sig label="cap_valve/cap_valve" ID="19" parentID="5" one="yes">
+   <atom label="cap_valve/cap_valve$0"/>
+</sig>
+
+<sig label="cap_waterSensor/cap_waterSensor" ID="20" parentID="5" one="yes">
+   <atom label="cap_waterSensor/cap_waterSensor$0"/>
+</sig>
+
+<sig label="cap_ovenMode/cap_ovenMode" ID="21" parentID="5" one="yes">
+   <atom label="cap_ovenMode/cap_ovenMode$0"/>
+</sig>
+
+<sig label="cap_fanSpeed/cap_fanSpeed" ID="22" parentID="5" one="yes">
+   <atom label="cap_fanSpeed/cap_fanSpeed$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement" ID="23" parentID="5" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement$0"/>
+</sig>
+
+<sig label="cap_momentary/cap_momentary" ID="24" parentID="5" one="yes">
+   <atom label="cap_momentary/cap_momentary$0"/>
+</sig>
+
+<sig label="cap_button/cap_button" ID="25" parentID="5" one="yes">
+   <atom label="cap_button/cap_button$0"/>
+</sig>
+
+<sig label="cap_runIn/cap_runIn" ID="26" parentID="5" abstract="yes">
+</sig>
+
+<sig label="cap_powerMeter/cap_powerMeter" ID="27" parentID="5" one="yes">
+   <atom label="cap_powerMeter/cap_powerMeter$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource" ID="28" parentID="5" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource$0"/>
+</sig>
+
+<sig label="cap_powerSource/cap_powerSource" ID="29" parentID="5" one="yes">
+   <atom label="cap_powerSource/cap_powerSource$0"/>
+</sig>
+
+<sig label="cap_userInput/cap_userInput" ID="30" parentID="5" one="yes">
+   <atom label="cap_userInput/cap_userInput$0"/>
+</sig>
+
+<sig label="cap_dishwasherMode/cap_dishwasherMode" ID="31" parentID="5" one="yes">
+   <atom label="cap_dishwasherMode/cap_dishwasherMode$0"/>
+</sig>
+
+<sig label="cap_rapidCooling/cap_rapidCooling" ID="32" parentID="5" one="yes">
+   <atom label="cap_rapidCooling/cap_rapidCooling$0"/>
+</sig>
+
+<sig label="cap_ovenSetpoint/cap_ovenSetpoint" ID="33" parentID="5" one="yes">
+   <atom label="cap_ovenSetpoint/cap_ovenSetpoint$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm" ID="34" parentID="5" one="yes">
+   <atom label="cap_alarm/cap_alarm$0"/>
+</sig>
+
+<sig label="cap_thermostatCoolingSetpoint/cap_thermostatCoolingSetpoint" ID="35" parentID="5" one="yes">
+   <atom label="cap_thermostatCoolingSetpoint/cap_thermostatCoolingSetpoint$0"/>
+</sig>
+
+<sig label="cap_infraredLevel/cap_infraredLevel" ID="36" parentID="5" one="yes">
+   <atom label="cap_infraredLevel/cap_infraredLevel$0"/>
+</sig>
+
+<sig label="cap_odorSensor/cap_odorSensor" ID="37" parentID="5" one="yes">
+   <atom label="cap_odorSensor/cap_odorSensor$0"/>
+</sig>
+
+<sig label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle" ID="38" parentID="5" one="yes">
+   <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle$0"/>
+</sig>
+
+<sig label="cap_now/cap_now" ID="39" parentID="5" one="yes">
+   <atom label="cap_now/cap_now$0"/>
+</sig>
+
+<sig label="cap_battery/cap_battery" ID="40" parentID="5" one="yes">
+   <atom label="cap_battery/cap_battery$0"/>
+</sig>
+
+<sig label="cap_audioVolume/cap_audioVolume" ID="41" parentID="5" one="yes">
+   <atom label="cap_audioVolume/cap_audioVolume$0"/>
+</sig>
+
+<sig label="cap_thermostatHeatingSetpoint/cap_thermostatHeatingSetpoint" ID="42" parentID="5" one="yes">
+   <atom label="cap_thermostatHeatingSetpoint/cap_thermostatHeatingSetpoint$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock" ID="43" parentID="5" one="yes">
+   <atom label="cap_lock/cap_lock$0"/>
+</sig>
+
+<sig label="cap_soundSensor/cap_soundSensor" ID="44" parentID="5" one="yes">
+   <atom label="cap_soundSensor/cap_soundSensor$0"/>
+</sig>
+
+<sig label="cap_filterStatus/cap_filterStatus" ID="45" parentID="5" one="yes">
+   <atom label="cap_filterStatus/cap_filterStatus$0"/>
+</sig>
+
+<sig label="cap_energyMeter/cap_energyMeter" ID="46" parentID="5" one="yes">
+   <atom label="cap_energyMeter/cap_energyMeter$0"/>
+</sig>
+
+<sig label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat" ID="47" parentID="5" one="yes">
+   <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat$0"/>
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode" ID="48" parentID="5" one="yes">
+   <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode$0"/>
+</sig>
+
+<sig label="cap_tvChannel/cap_tvChannel" ID="49" parentID="5" one="yes">
+   <atom label="cap_tvChannel/cap_tvChannel$0"/>
+</sig>
+
+<sig label="cap_accelerationSensor/cap_accelerationSensor" ID="50" parentID="5" one="yes">
+   <atom label="cap_accelerationSensor/cap_accelerationSensor$0"/>
+</sig>
+
+<sig label="cap_signalStrength/cap_signalStrength" ID="51" parentID="5" one="yes">
+   <atom label="cap_signalStrength/cap_signalStrength$0"/>
+</sig>
+
+<sig label="cap_dustSensor/cap_dustSensor" ID="52" parentID="5" one="yes">
+   <atom label="cap_dustSensor/cap_dustSensor$0"/>
+</sig>
+
+<sig label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode" ID="53" parentID="5" one="yes">
+   <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode$0"/>
+</sig>
+
+<sig label="cap_app/cap_app" ID="54" parentID="5" one="yes">
+   <atom label="cap_app/cap_app$0"/>
+</sig>
+
+<sig label="cap_formaldehydeMeasurement/cap_formaldehydeMeasurement" ID="55" parentID="5" one="yes">
+   <atom label="cap_formaldehydeMeasurement/cap_formaldehydeMeasurement$0"/>
+</sig>
+
+<sig label="cap_voltageMeasurement/cap_voltageMeasurement" ID="56" parentID="5" one="yes">
+   <atom label="cap_voltageMeasurement/cap_voltageMeasurement$0"/>
+</sig>
+
+<sig label="cap_airQualitySensor/cap_airQualitySensor" ID="57" parentID="5" one="yes">
+   <atom label="cap_airQualitySensor/cap_airQualitySensor$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState" ID="58" parentID="5" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState$0"/>
+</sig>
+
+<sig label="cap_refrigerationSetpoint/cap_refrigerationSetpoint" ID="59" parentID="5" one="yes">
+   <atom label="cap_refrigerationSetpoint/cap_refrigerationSetpoint$0"/>
+</sig>
+
+<sig label="cap_equivalentCarbonDioxideMeasurement/cap_equivalentCarbonDioxideMeasurement" ID="60" parentID="5" one="yes">
+   <atom label="cap_equivalentCarbonDioxideMeasurement/cap_equivalentCarbonDioxideMeasurement$0"/>
+</sig>
+
+<sig label="cap_tamperAlert/cap_tamperAlert" ID="61" parentID="5" one="yes">
+   <atom label="cap_tamperAlert/cap_tamperAlert$0"/>
+</sig>
+
+<sig label="cap_ultravioletIndex/cap_ultravioletIndex" ID="62" parentID="5" one="yes">
+   <atom label="cap_ultravioletIndex/cap_ultravioletIndex$0"/>
+</sig>
+
+<sig label="cap_tone/cap_tone" ID="63" parentID="5" one="yes">
+   <atom label="cap_tone/cap_tone$0"/>
+</sig>
+
+<sig label="cap_colorTemperature/cap_colorTemperature" ID="64" parentID="5" one="yes">
+   <atom label="cap_colorTemperature/cap_colorTemperature$0"/>
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade" ID="65" parentID="5" one="yes">
+   <atom label="cap_windowShade/cap_windowShade$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode" ID="66" parentID="5" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode$0"/>
+</sig>
+
+<sig label="cap_threeAxis/cap_threeAxis" ID="67" parentID="5" one="yes">
+   <atom label="cap_threeAxis/cap_threeAxis$0"/>
+</sig>
+
+<sig label="cap_imageCapture/cap_imageCapture" ID="68" parentID="5" one="yes">
+   <atom label="cap_imageCapture/cap_imageCapture$0"/>
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState" ID="69" parentID="5" one="yes">
+   <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState$0"/>
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl" ID="70" parentID="5" one="yes">
+   <atom label="cap_colorControl/cap_colorControl$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState" ID="71" parentID="5" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState$0"/>
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode" ID="72" parentID="5" one="yes">
+   <atom label="cap_thermostatFanMode/cap_thermostatFanMode$0"/>
+</sig>
+
+<sig label="cap_thermostatSetpoint/cap_thermostatSetpoint" ID="73" parentID="5" one="yes">
+   <atom label="cap_thermostatSetpoint/cap_thermostatSetpoint$0"/>
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer" ID="74" parentID="5" one="yes">
+   <atom label="cap_musicPlayer/cap_musicPlayer$0"/>
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback" ID="75" parentID="5" one="yes">
+   <atom label="cap_mediaPlayback/cap_mediaPlayback$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode" ID="76" parentID="5" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode$0"/>
+</sig>
+
+<sig label="cap_garageDoorControl/cap_garageDoorControl" ID="77" parentID="5" one="yes">
+   <atom label="cap_garageDoorControl/cap_garageDoorControl$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl" ID="78" parentID="5" one="yes">
+   <atom label="cap_doorControl/cap_doorControl$0"/>
+</sig>
+
+<sig label="cap_audioMute/cap_audioMute" ID="79" parentID="5" one="yes">
+   <atom label="cap_audioMute/cap_audioMute$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState" ID="80" parentID="5" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState" ID="81" parentID="5" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState$0"/>
+</sig>
+
+<sig label="cap_washerMode/cap_washerMode" ID="82" parentID="5" one="yes">
+   <atom label="cap_washerMode/cap_washerMode$0"/>
+</sig>
+
+<sig label="cap_dryerMode/cap_dryerMode" ID="83" parentID="5" one="yes">
+   <atom label="cap_dryerMode/cap_dryerMode$0"/>
+</sig>
+
+<sig label="cap_activityLightingMode/cap_activityLightingMode" ID="84" parentID="5" one="yes">
+   <atom label="cap_activityLightingMode/cap_activityLightingMode$0"/>
+</sig>
+
+<sig label="base/Capability" ID="5" parentID="2" abstract="yes">
+</sig>
+
+<field label="attributes" ID="85" parentID="5">
+   <tuple> <atom label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement$0"/> <atom label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide$0"/> </tuple>
+   <tuple> <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector$0"/> <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/> </tuple>
+   <tuple> <atom label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement$0"/> <atom label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel$0"/> </tuple>
+   <tuple> <atom label="cap_contactSensor/cap_contactSensor$0"/> <atom label="cap_contactSensor/cap_contactSensor_attr_contact$0"/> </tuple>
+   <tuple> <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement$0"/> <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_mode$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_position$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_sunSet$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_sunRise$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_sunsetTime$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_sunriseTime$0"/> </tuple>
+   <tuple> <atom label="cap_motionSensor/cap_motionSensor$0"/> <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/> </tuple>
+   <tuple> <atom label="cap_presenceSensor/cap_presenceSensor$0"/> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence$0"/> </tuple>
+   <tuple> <atom label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement$0"/> <atom label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity$0"/> </tuple>
+   <tuple> <atom label="cap_smokeDetector/cap_smokeDetector$0"/> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/> </tuple>
+   <tuple> <atom label="cap_switch/cap_switch$0"/> <atom label="cap_switch/cap_switch_attr_switch$0"/> </tuple>
+   <tuple> <atom label="cap_switchLevel/cap_switchLevel$0"/> <atom label="cap_switchLevel/cap_switchLevel_attr_level$0"/> </tuple>
+   <tuple> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/> </tuple>
+   <tuple> <atom label="cap_thermostat/cap_thermostat$0"/> <atom label="cap_thermostat/cap_thermostat_attr_thermostat$0"/> </tuple>
+   <tuple> <atom label="cap_thermostat/cap_thermostat$0"/> <atom label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState$0"/> </tuple>
+   <tuple> <atom label="cap_valve/cap_valve$0"/> <atom label="cap_valve/cap_valve_attr_valve$0"/> </tuple>
+   <tuple> <atom label="cap_waterSensor/cap_waterSensor$0"/> <atom label="cap_waterSensor/cap_waterSensor_attr_water$0"/> </tuple>
+   <tuple> <atom label="cap_ovenMode/cap_ovenMode$0"/> <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> </tuple>
+   <tuple> <atom label="cap_fanSpeed/cap_fanSpeed$0"/> <atom label="cap_fanSpeed/cap_fanSpeed_attr_fanSpeed$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button$0"/> <atom label="cap_button/cap_button_attr_button$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button$0"/> <atom label="cap_button/cap_button_attr_numberOfButtons$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button$0"/> <atom label="cap_button/cap_button_attr_supportedButtonValues$0"/> </tuple>
+   <tuple> <atom label="cap_powerMeter/cap_powerMeter$0"/> <atom label="cap_powerMeter/cap_powerMeter_attr_power$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_supportedInputSources$0"/> </tuple>
+   <tuple> <atom label="cap_powerSource/cap_powerSource$0"/> <atom label="cap_powerSource/cap_powerSource_attr_powerSource$0"/> </tuple>
+   <tuple> <atom label="cap_userInput/cap_userInput$0"/> <atom label="cap_userInput/cap_userInput_attr_value$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherMode/cap_dishwasherMode$0"/> <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode$0"/> </tuple>
+   <tuple> <atom label="cap_rapidCooling/cap_rapidCooling$0"/> <atom label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling$0"/> </tuple>
+   <tuple> <atom label="cap_ovenSetpoint/cap_ovenSetpoint$0"/> <atom label="cap_ovenSetpoint/cap_ovenSetpoint_attr_ovenSetpoint$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatCoolingSetpoint/cap_thermostatCoolingSetpoint$0"/> <atom label="cap_thermostatCoolingSetpoint/cap_thermostatCoolingSetpoint_attr_coolingSetpoint$0"/> </tuple>
+   <tuple> <atom label="cap_infraredLevel/cap_infraredLevel$0"/> <atom label="cap_infraredLevel/cap_infraredLevel_attr_infraredLevel$0"/> </tuple>
+   <tuple> <atom label="cap_odorSensor/cap_odorSensor$0"/> <atom label="cap_odorSensor/cap_odorSensor_attr_odorLevel$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle$0"/> <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle$0"/> </tuple>
+   <tuple> <atom label="cap_now/cap_now$0"/> <atom label="cap_now/cap_now_attr_now$0"/> </tuple>
+   <tuple> <atom label="cap_battery/cap_battery$0"/> <atom label="cap_battery/cap_battery_attr_battery$0"/> </tuple>
+   <tuple> <atom label="cap_audioVolume/cap_audioVolume$0"/> <atom label="cap_audioVolume/cap_audioVolume_attr_volume$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatHeatingSetpoint/cap_thermostatHeatingSetpoint$0"/> <atom label="cap_thermostatHeatingSetpoint/cap_thermostatHeatingSetpoint_attr_heatingSetpoint$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock$0"/> </tuple>
+   <tuple> <atom label="cap_soundSensor/cap_soundSensor$0"/> <atom label="cap_soundSensor/cap_soundSensor_attr_sound$0"/> </tuple>
+   <tuple> <atom label="cap_filterStatus/cap_filterStatus$0"/> <atom label="cap_filterStatus/cap_filterStatus_attr_filterStatus$0"/> </tuple>
+   <tuple> <atom label="cap_energyMeter/cap_energyMeter$0"/> <atom label="cap_energyMeter/cap_energyMeter_attr_energy$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat$0"/> <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode$0"/> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode$0"/> </tuple>
+   <tuple> <atom label="cap_tvChannel/cap_tvChannel$0"/> <atom label="cap_tvChannel/cap_tvChannel_attr_tvChannel$0"/> </tuple>
+   <tuple> <atom label="cap_accelerationSensor/cap_accelerationSensor$0"/> <atom label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration$0"/> </tuple>
+   <tuple> <atom label="cap_signalStrength/cap_signalStrength$0"/> <atom label="cap_signalStrength/cap_signalStrength_attr_lqi$0"/> </tuple>
+   <tuple> <atom label="cap_signalStrength/cap_signalStrength$0"/> <atom label="cap_signalStrength/cap_signalStrength_attr_rssi$0"/> </tuple>
+   <tuple> <atom label="cap_dustSensor/cap_dustSensor$0"/> <atom label="cap_dustSensor/cap_dustSensor_attr_fineDustLevel$0"/> </tuple>
+   <tuple> <atom label="cap_dustSensor/cap_dustSensor$0"/> <atom label="cap_dustSensor/cap_dustSensor_attr_dustLevel$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode$0"/> <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode$0"/> </tuple>
+   <tuple> <atom label="cap_app/cap_app$0"/> <atom label="cap_app/cap_app_attr_app$0"/> </tuple>
+   <tuple> <atom label="cap_formaldehydeMeasurement/cap_formaldehydeMeasurement$0"/> <atom label="cap_formaldehydeMeasurement/cap_formaldehydeMeasurement_attr_formaldehydeLevel$0"/> </tuple>
+   <tuple> <atom label="cap_voltageMeasurement/cap_voltageMeasurement$0"/> <atom label="cap_voltageMeasurement/cap_voltageMeasurement_attr_voltage$0"/> </tuple>
+   <tuple> <atom label="cap_airQualitySensor/cap_airQualitySensor$0"/> <atom label="cap_airQualitySensor/cap_airQualitySensor_attr_airQuality$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_supportedMachineStates$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_completionTime$0"/> </tuple>
+   <tuple> <atom label="cap_refrigerationSetpoint/cap_refrigerationSetpoint$0"/> <atom label="cap_refrigerationSetpoint/cap_refrigerationSetpoint_attr_refrigerationSetpoint$0"/> </tuple>
+   <tuple> <atom label="cap_equivalentCarbonDioxideMeasurement/cap_equivalentCarbonDioxideMeasurement$0"/> <atom label="cap_equivalentCarbonDioxideMeasurement/cap_equivalentCarbonDioxideMeasurement_attr_equivalentCarbonDioxideMeasurement$0"/> </tuple>
+   <tuple> <atom label="cap_tamperAlert/cap_tamperAlert$0"/> <atom label="cap_tamperAlert/cap_tamperAlert_attr_tamper$0"/> </tuple>
+   <tuple> <atom label="cap_ultravioletIndex/cap_ultravioletIndex$0"/> <atom label="cap_ultravioletIndex/cap_ultravioletIndex_attr_ultravioletIndex$0"/> </tuple>
+   <tuple> <atom label="cap_colorTemperature/cap_colorTemperature$0"/> <atom label="cap_colorTemperature/cap_colorTemperature_attr_colorTemperature$0"/> </tuple>
+   <tuple> <atom label="cap_windowShade/cap_windowShade$0"/> <atom label="cap_windowShade/cap_windowShade_attr_windowShade$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatMode/cap_thermostatMode$0"/> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatMode/cap_thermostatMode$0"/> <atom label="cap_thermostatMode/cap_thermostatMode_attr_supportedThermostatModes$0"/> </tuple>
+   <tuple> <atom label="cap_threeAxis/cap_threeAxis$0"/> <atom label="cap_threeAxis/cap_threeAxis_attr_value$0"/> </tuple>
+   <tuple> <atom label="cap_threeAxis/cap_threeAxis$0"/> <atom label="cap_threeAxis/cap_threeAxis_attr_unit$0"/> </tuple>
+   <tuple> <atom label="cap_imageCapture/cap_imageCapture$0"/> <atom label="cap_imageCapture/cap_imageCapture_attr_image$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState$0"/> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState$0"/> </tuple>
+   <tuple> <atom label="cap_colorControl/cap_colorControl$0"/> <atom label="cap_colorControl/cap_colorControl_attr_color$0"/> </tuple>
+   <tuple> <atom label="cap_colorControl/cap_colorControl$0"/> <atom label="cap_colorControl/cap_colorControl_attr_hue$0"/> </tuple>
+   <tuple> <atom label="cap_colorControl/cap_colorControl$0"/> <atom label="cap_colorControl/cap_colorControl_attr_saturation$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_supportedMachineStates$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_completionTime$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatFanMode/cap_thermostatFanMode$0"/> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatFanMode/cap_thermostatFanMode$0"/> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_supportedThermostatFanModes$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatSetpoint/cap_thermostatSetpoint$0"/> <atom label="cap_thermostatSetpoint/cap_thermostatSetpoint_attr_thermostatSetpoint$0"/> </tuple>
+   <tuple> <atom label="cap_musicPlayer/cap_musicPlayer$0"/> <atom label="cap_musicPlayer/cap_musicPlayer_attr_level$0"/> </tuple>
+   <tuple> <atom label="cap_musicPlayer/cap_musicPlayer$0"/> <atom label="cap_musicPlayer/cap_musicPlayer_attr_mute$0"/> </tuple>
+   <tuple> <atom label="cap_musicPlayer/cap_musicPlayer$0"/> <atom label="cap_musicPlayer/cap_musicPlayer_attr_status$0"/> </tuple>
+   <tuple> <atom label="cap_musicPlayer/cap_musicPlayer$0"/> <atom label="cap_musicPlayer/cap_musicPlayer_attr_trackData$0"/> </tuple>
+   <tuple> <atom label="cap_musicPlayer/cap_musicPlayer$0"/> <atom label="cap_musicPlayer/cap_musicPlayer_attr_trackDescription$0"/> </tuple>
+   <tuple> <atom label="cap_musicPlayer/cap_musicPlayer$0"/> <atom label="cap_musicPlayer/cap_musicPlayer_attr_playTrack$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlayback/cap_mediaPlayback$0"/> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlayback/cap_mediaPlayback$0"/> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_supportedPlaybackCommands$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> </tuple>
+   <tuple> <atom label="cap_garageDoorControl/cap_garageDoorControl$0"/> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> </tuple>
+   <tuple> <atom label="cap_audioMute/cap_audioMute$0"/> <atom label="cap_audioMute/cap_audioMute_attr_mute$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_supportedMachineStates$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_completionTime$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_supportedMachineStates$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_completionTime$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_operationTime$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_progress$0"/> </tuple>
+   <tuple> <atom label="cap_washerMode/cap_washerMode$0"/> <atom label="cap_washerMode/cap_washerMode_attr_washerMode$0"/> </tuple>
+   <tuple> <atom label="cap_dryerMode/cap_dryerMode$0"/> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode$0"/> </tuple>
+   <tuple> <atom label="cap_activityLightingMode/cap_activityLightingMode$0"/> <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode$0"/> </tuple>
+   <types> <type ID="5"/> <type ID="86"/> </types>
+</field>
+
+<sig label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide" ID="87" parentID="88" one="yes">
+   <atom label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide$0"/>
+</sig>
+
+<sig label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr" ID="88" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide" ID="89" parentID="90" one="yes">
+   <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/>
+</sig>
+
+<sig label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr" ID="90" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel" ID="91" parentID="92" one="yes">
+   <atom label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel$0"/>
+</sig>
+
+<sig label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr" ID="92" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr_contact" ID="93" parentID="94" one="yes">
+   <atom label="cap_contactSensor/cap_contactSensor_attr_contact$0"/>
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr" ID="94" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance" ID="95" parentID="96" one="yes">
+   <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance$0"/>
+</sig>
+
+<sig label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr" ID="96" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode" ID="97" parentID="98" one="yes">
+   <atom label="cap_location/cap_location_attr_mode$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_position" ID="99" parentID="98" one="yes">
+   <atom label="cap_location/cap_location_attr_position$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunSet" ID="100" parentID="98" one="yes">
+   <atom label="cap_location/cap_location_attr_sunSet$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise" ID="101" parentID="98" one="yes">
+   <atom label="cap_location/cap_location_attr_sunRise$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunsetTime" ID="102" parentID="98" one="yes">
+   <atom label="cap_location/cap_location_attr_sunsetTime$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunriseTime" ID="103" parentID="98" one="yes">
+   <atom label="cap_location/cap_location_attr_sunriseTime$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr" ID="98" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr_motion" ID="104" parentID="105" one="yes">
+   <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/>
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr" ID="105" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr_presence" ID="106" parentID="107" one="yes">
+   <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence$0"/>
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr" ID="107" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity" ID="108" parentID="109" one="yes">
+   <atom label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity$0"/>
+</sig>
+
+<sig label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr" ID="109" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke" ID="110" parentID="111" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr" ID="111" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_switch/cap_switch_attr_switch" ID="112" parentID="113" one="yes">
+   <atom label="cap_switch/cap_switch_attr_switch$0"/>
+</sig>
+
+<sig label="cap_switch/cap_switch_attr" ID="113" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_switchLevel/cap_switchLevel_attr_level" ID="114" parentID="115" one="yes">
+   <atom label="cap_switchLevel/cap_switchLevel_attr_level$0"/>
+</sig>
+
+<sig label="cap_switchLevel/cap_switchLevel_attr" ID="115" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature" ID="116" parentID="117" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr" ID="117" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat_attr_thermostat" ID="118" parentID="119" one="yes">
+   <atom label="cap_thermostat/cap_thermostat_attr_thermostat$0"/>
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState" ID="120" parentID="119" one="yes">
+   <atom label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState$0"/>
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat_attr" ID="119" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_valve/cap_valve_attr_valve" ID="121" parentID="122" one="yes">
+   <atom label="cap_valve/cap_valve_attr_valve$0"/>
+</sig>
+
+<sig label="cap_valve/cap_valve_attr" ID="122" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_waterSensor/cap_waterSensor_attr_water" ID="123" parentID="124" one="yes">
+   <atom label="cap_waterSensor/cap_waterSensor_attr_water$0"/>
+</sig>
+
+<sig label="cap_waterSensor/cap_waterSensor_attr" ID="124" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_ovenMode/cap_ovenMode_attr_ovenMode" ID="125" parentID="126" one="yes">
+   <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/>
+</sig>
+
+<sig label="cap_ovenMode/cap_ovenMode_attr" ID="126" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_fanSpeed/cap_fanSpeed_attr_fanSpeed" ID="127" parentID="128" one="yes">
+   <atom label="cap_fanSpeed/cap_fanSpeed_attr_fanSpeed$0"/>
+</sig>
+
+<sig label="cap_fanSpeed/cap_fanSpeed_attr" ID="128" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement" ID="129" parentID="130" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr" ID="130" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_momentary/cap_momentary_attr" ID="131" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_button/cap_button_attr_button" ID="132" parentID="133" one="yes">
+   <atom label="cap_button/cap_button_attr_button$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_numberOfButtons" ID="134" parentID="133" one="yes">
+   <atom label="cap_button/cap_button_attr_numberOfButtons$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_supportedButtonValues" ID="135" parentID="133" one="yes">
+   <atom label="cap_button/cap_button_attr_supportedButtonValues$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr" ID="133" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr_runIn" ID="136" parentID="137" one="yes">
+   <atom label="cap_runIn/cap_runIn_attr_runIn$0"/>
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr" ID="137" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_powerMeter/cap_powerMeter_attr_power" ID="138" parentID="139" one="yes">
+   <atom label="cap_powerMeter/cap_powerMeter_attr_power$0"/>
+</sig>
+
+<sig label="cap_powerMeter/cap_powerMeter_attr" ID="139" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource" ID="140" parentID="141" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_supportedInputSources" ID="142" parentID="141" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_supportedInputSources$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr" ID="141" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_powerSource/cap_powerSource_attr_powerSource" ID="143" parentID="144" one="yes">
+   <atom label="cap_powerSource/cap_powerSource_attr_powerSource$0"/>
+</sig>
+
+<sig label="cap_powerSource/cap_powerSource_attr" ID="144" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_userInput/cap_userInput_attr_value" ID="145" parentID="146" one="yes">
+   <atom label="cap_userInput/cap_userInput_attr_value$0"/>
+</sig>
+
+<sig label="cap_userInput/cap_userInput_attr" ID="146" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode" ID="147" parentID="148" one="yes">
+   <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode$0"/>
+</sig>
+
+<sig label="cap_dishwasherMode/cap_dishwasherMode_attr" ID="148" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling" ID="149" parentID="150" one="yes">
+   <atom label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling$0"/>
+</sig>
+
+<sig label="cap_rapidCooling/cap_rapidCooling_attr" ID="150" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_ovenSetpoint/cap_ovenSetpoint_attr_ovenSetpoint" ID="151" parentID="152" one="yes">
+   <atom label="cap_ovenSetpoint/cap_ovenSetpoint_attr_ovenSetpoint$0"/>
+</sig>
+
+<sig label="cap_ovenSetpoint/cap_ovenSetpoint_attr" ID="152" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm" ID="153" parentID="154" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr" ID="154" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatCoolingSetpoint/cap_thermostatCoolingSetpoint_attr_coolingSetpoint" ID="155" parentID="156" one="yes">
+   <atom label="cap_thermostatCoolingSetpoint/cap_thermostatCoolingSetpoint_attr_coolingSetpoint$0"/>
+</sig>
+
+<sig label="cap_thermostatCoolingSetpoint/cap_thermostatCoolingSetpoint_attr" ID="156" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_infraredLevel/cap_infraredLevel_attr_infraredLevel" ID="157" parentID="158" one="yes">
+   <atom label="cap_infraredLevel/cap_infraredLevel_attr_infraredLevel$0"/>
+</sig>
+
+<sig label="cap_infraredLevel/cap_infraredLevel_attr" ID="158" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_odorSensor/cap_odorSensor_attr_odorLevel" ID="159" parentID="160" one="yes">
+   <atom label="cap_odorSensor/cap_odorSensor_attr_odorLevel$0"/>
+</sig>
+
+<sig label="cap_odorSensor/cap_odorSensor_attr" ID="160" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle" ID="161" parentID="162" one="yes">
+   <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle$0"/>
+</sig>
+
+<sig label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr" ID="162" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_now/cap_now_attr_now" ID="163" parentID="164" one="yes">
+   <atom label="cap_now/cap_now_attr_now$0"/>
+</sig>
+
+<sig label="cap_now/cap_now_attr" ID="164" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_battery/cap_battery_attr_battery" ID="165" parentID="166" one="yes">
+   <atom label="cap_battery/cap_battery_attr_battery$0"/>
+</sig>
+
+<sig label="cap_battery/cap_battery_attr" ID="166" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_audioVolume/cap_audioVolume_attr_volume" ID="167" parentID="168" one="yes">
+   <atom label="cap_audioVolume/cap_audioVolume_attr_volume$0"/>
+</sig>
+
+<sig label="cap_audioVolume/cap_audioVolume_attr" ID="168" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatHeatingSetpoint/cap_thermostatHeatingSetpoint_attr_heatingSetpoint" ID="169" parentID="170" one="yes">
+   <atom label="cap_thermostatHeatingSetpoint/cap_thermostatHeatingSetpoint_attr_heatingSetpoint$0"/>
+</sig>
+
+<sig label="cap_thermostatHeatingSetpoint/cap_thermostatHeatingSetpoint_attr" ID="170" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock" ID="171" parentID="172" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr" ID="172" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_soundSensor/cap_soundSensor_attr_sound" ID="173" parentID="174" one="yes">
+   <atom label="cap_soundSensor/cap_soundSensor_attr_sound$0"/>
+</sig>
+
+<sig label="cap_soundSensor/cap_soundSensor_attr" ID="174" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_filterStatus/cap_filterStatus_attr_filterStatus" ID="175" parentID="176" one="yes">
+   <atom label="cap_filterStatus/cap_filterStatus_attr_filterStatus$0"/>
+</sig>
+
+<sig label="cap_filterStatus/cap_filterStatus_attr" ID="176" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_energyMeter/cap_energyMeter_attr_energy" ID="177" parentID="178" one="yes">
+   <atom label="cap_energyMeter/cap_energyMeter_attr_energy$0"/>
+</sig>
+
+<sig label="cap_energyMeter/cap_energyMeter_attr" ID="178" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode" ID="179" parentID="180" one="yes">
+   <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode$0"/>
+</sig>
+
+<sig label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr" ID="180" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode" ID="181" parentID="182" one="yes">
+   <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode$0"/>
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr" ID="182" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_tvChannel/cap_tvChannel_attr_tvChannel" ID="183" parentID="184" one="yes">
+   <atom label="cap_tvChannel/cap_tvChannel_attr_tvChannel$0"/>
+</sig>
+
+<sig label="cap_tvChannel/cap_tvChannel_attr" ID="184" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration" ID="185" parentID="186" one="yes">
+   <atom label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration$0"/>
+</sig>
+
+<sig label="cap_accelerationSensor/cap_accelerationSensor_attr" ID="186" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_signalStrength/cap_signalStrength_attr_lqi" ID="187" parentID="188" one="yes">
+   <atom label="cap_signalStrength/cap_signalStrength_attr_lqi$0"/>
+</sig>
+
+<sig label="cap_signalStrength/cap_signalStrength_attr_rssi" ID="189" parentID="188" one="yes">
+   <atom label="cap_signalStrength/cap_signalStrength_attr_rssi$0"/>
+</sig>
+
+<sig label="cap_signalStrength/cap_signalStrength_attr" ID="188" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_dustSensor/cap_dustSensor_attr_fineDustLevel" ID="190" parentID="191" one="yes">
+   <atom label="cap_dustSensor/cap_dustSensor_attr_fineDustLevel$0"/>
+</sig>
+
+<sig label="cap_dustSensor/cap_dustSensor_attr_dustLevel" ID="192" parentID="191" one="yes">
+   <atom label="cap_dustSensor/cap_dustSensor_attr_dustLevel$0"/>
+</sig>
+
+<sig label="cap_dustSensor/cap_dustSensor_attr" ID="191" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode" ID="193" parentID="194" one="yes">
+   <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode$0"/>
+</sig>
+
+<sig label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr" ID="194" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_app/cap_app_attr_app" ID="195" parentID="196" one="yes">
+   <atom label="cap_app/cap_app_attr_app$0"/>
+</sig>
+
+<sig label="cap_app/cap_app_attr" ID="196" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_formaldehydeMeasurement/cap_formaldehydeMeasurement_attr_formaldehydeLevel" ID="197" parentID="198" one="yes">
+   <atom label="cap_formaldehydeMeasurement/cap_formaldehydeMeasurement_attr_formaldehydeLevel$0"/>
+</sig>
+
+<sig label="cap_formaldehydeMeasurement/cap_formaldehydeMeasurement_attr" ID="198" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_voltageMeasurement/cap_voltageMeasurement_attr_voltage" ID="199" parentID="200" one="yes">
+   <atom label="cap_voltageMeasurement/cap_voltageMeasurement_attr_voltage$0"/>
+</sig>
+
+<sig label="cap_voltageMeasurement/cap_voltageMeasurement_attr" ID="200" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_airQualitySensor/cap_airQualitySensor_attr_airQuality" ID="201" parentID="202" one="yes">
+   <atom label="cap_airQualitySensor/cap_airQualitySensor_attr_airQuality$0"/>
+</sig>
+
+<sig label="cap_airQualitySensor/cap_airQualitySensor_attr" ID="202" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState" ID="203" parentID="204" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_supportedMachineStates" ID="205" parentID="204" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_supportedMachineStates$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState" ID="206" parentID="204" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_completionTime" ID="207" parentID="204" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_completionTime$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr" ID="204" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_refrigerationSetpoint/cap_refrigerationSetpoint_attr_refrigerationSetpoint" ID="208" parentID="209" one="yes">
+   <atom label="cap_refrigerationSetpoint/cap_refrigerationSetpoint_attr_refrigerationSetpoint$0"/>
+</sig>
+
+<sig label="cap_refrigerationSetpoint/cap_refrigerationSetpoint_attr" ID="209" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_equivalentCarbonDioxideMeasurement/cap_equivalentCarbonDioxideMeasurement_attr_equivalentCarbonDioxideMeasurement" ID="210" parentID="211" one="yes">
+   <atom label="cap_equivalentCarbonDioxideMeasurement/cap_equivalentCarbonDioxideMeasurement_attr_equivalentCarbonDioxideMeasurement$0"/>
+</sig>
+
+<sig label="cap_equivalentCarbonDioxideMeasurement/cap_equivalentCarbonDioxideMeasurement_attr" ID="211" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_tamperAlert/cap_tamperAlert_attr_tamper" ID="212" parentID="213" one="yes">
+   <atom label="cap_tamperAlert/cap_tamperAlert_attr_tamper$0"/>
+</sig>
+
+<sig label="cap_tamperAlert/cap_tamperAlert_attr" ID="213" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_ultravioletIndex/cap_ultravioletIndex_attr_ultravioletIndex" ID="214" parentID="215" one="yes">
+   <atom label="cap_ultravioletIndex/cap_ultravioletIndex_attr_ultravioletIndex$0"/>
+</sig>
+
+<sig label="cap_ultravioletIndex/cap_ultravioletIndex_attr" ID="215" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_tone/cap_tone_attr" ID="216" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_colorTemperature/cap_colorTemperature_attr_colorTemperature" ID="217" parentID="218" one="yes">
+   <atom label="cap_colorTemperature/cap_colorTemperature_attr_colorTemperature$0"/>
+</sig>
+
+<sig label="cap_colorTemperature/cap_colorTemperature_attr" ID="218" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade_attr_windowShade" ID="219" parentID="220" one="yes">
+   <atom label="cap_windowShade/cap_windowShade_attr_windowShade$0"/>
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade_attr" ID="220" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode" ID="221" parentID="222" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_supportedThermostatModes" ID="223" parentID="222" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode_attr_supportedThermostatModes$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr" ID="222" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_threeAxis/cap_threeAxis_attr_value" ID="224" parentID="225" one="yes">
+   <atom label="cap_threeAxis/cap_threeAxis_attr_value$0"/>
+</sig>
+
+<sig label="cap_threeAxis/cap_threeAxis_attr_unit" ID="226" parentID="225" one="yes">
+   <atom label="cap_threeAxis/cap_threeAxis_attr_unit$0"/>
+</sig>
+
+<sig label="cap_threeAxis/cap_threeAxis_attr" ID="225" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_imageCapture/cap_imageCapture_attr_image" ID="227" parentID="228" one="yes">
+   <atom label="cap_imageCapture/cap_imageCapture_attr_image$0"/>
+</sig>
+
+<sig label="cap_imageCapture/cap_imageCapture_attr" ID="228" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState" ID="229" parentID="230" one="yes">
+   <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState$0"/>
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr" ID="230" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr_color" ID="231" parentID="232" one="yes">
+   <atom label="cap_colorControl/cap_colorControl_attr_color$0"/>
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr_hue" ID="233" parentID="232" one="yes">
+   <atom label="cap_colorControl/cap_colorControl_attr_hue$0"/>
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr_saturation" ID="234" parentID="232" one="yes">
+   <atom label="cap_colorControl/cap_colorControl_attr_saturation$0"/>
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr" ID="232" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState" ID="235" parentID="236" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_supportedMachineStates" ID="237" parentID="236" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_supportedMachineStates$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState" ID="238" parentID="236" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_completionTime" ID="239" parentID="236" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_completionTime$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr" ID="236" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode" ID="240" parentID="241" one="yes">
+   <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode$0"/>
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode_attr_supportedThermostatFanModes" ID="242" parentID="241" one="yes">
+   <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_supportedThermostatFanModes$0"/>
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode_attr" ID="241" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatSetpoint/cap_thermostatSetpoint_attr_thermostatSetpoint" ID="243" parentID="244" one="yes">
+   <atom label="cap_thermostatSetpoint/cap_thermostatSetpoint_attr_thermostatSetpoint$0"/>
+</sig>
+
+<sig label="cap_thermostatSetpoint/cap_thermostatSetpoint_attr" ID="244" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_level" ID="245" parentID="246" one="yes">
+   <atom label="cap_musicPlayer/cap_musicPlayer_attr_level$0"/>
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_mute" ID="247" parentID="246" one="yes">
+   <atom label="cap_musicPlayer/cap_musicPlayer_attr_mute$0"/>
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_status" ID="248" parentID="246" one="yes">
+   <atom label="cap_musicPlayer/cap_musicPlayer_attr_status$0"/>
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_trackData" ID="249" parentID="246" one="yes">
+   <atom label="cap_musicPlayer/cap_musicPlayer_attr_trackData$0"/>
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_trackDescription" ID="250" parentID="246" one="yes">
+   <atom label="cap_musicPlayer/cap_musicPlayer_attr_trackDescription$0"/>
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_playTrack" ID="251" parentID="246" one="yes">
+   <atom label="cap_musicPlayer/cap_musicPlayer_attr_playTrack$0"/>
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr" ID="246" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus" ID="252" parentID="253" one="yes">
+   <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus$0"/>
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr_supportedPlaybackCommands" ID="254" parentID="253" one="yes">
+   <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_supportedPlaybackCommands$0"/>
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr" ID="253" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode" ID="255" parentID="256" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr" ID="256" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_garageDoorControl/cap_garageDoorControl_attr_door" ID="257" parentID="258" one="yes">
+   <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door$0"/>
+</sig>
+
+<sig label="cap_garageDoorControl/cap_garageDoorControl_attr" ID="258" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door" ID="259" parentID="260" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr" ID="260" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_audioMute/cap_audioMute_attr_mute" ID="261" parentID="262" one="yes">
+   <atom label="cap_audioMute/cap_audioMute_attr_mute$0"/>
+</sig>
+
+<sig label="cap_audioMute/cap_audioMute_attr" ID="262" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState" ID="263" parentID="264" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_supportedMachineStates" ID="265" parentID="264" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_supportedMachineStates$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState" ID="266" parentID="264" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_completionTime" ID="267" parentID="264" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_completionTime$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr" ID="264" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState" ID="268" parentID="269" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_supportedMachineStates" ID="270" parentID="269" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_supportedMachineStates$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState" ID="271" parentID="269" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_completionTime" ID="272" parentID="269" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_completionTime$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_operationTime" ID="273" parentID="269" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_operationTime$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_progress" ID="274" parentID="269" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_progress$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr" ID="269" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_washerMode/cap_washerMode_attr_washerMode" ID="275" parentID="276" one="yes">
+   <atom label="cap_washerMode/cap_washerMode_attr_washerMode$0"/>
+</sig>
+
+<sig label="cap_washerMode/cap_washerMode_attr" ID="276" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_dryerMode/cap_dryerMode_attr_dryerMode" ID="277" parentID="278" one="yes">
+   <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode$0"/>
+</sig>
+
+<sig label="cap_dryerMode/cap_dryerMode_attr" ID="278" parentID="86" abstract="yes">
+</sig>
+
+<sig label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode" ID="279" parentID="280" one="yes">
+   <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode$0"/>
+</sig>
+
+<sig label="cap_activityLightingMode/cap_activityLightingMode_attr" ID="280" parentID="86" abstract="yes">
+</sig>
+
+<sig label="base/Attribute" ID="86" parentID="2" abstract="yes">
+</sig>
+
+<field label="values" ID="281" parentID="86">
+   <tuple> <atom label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide$0"/> <atom label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide_val0$0"/> </tuple>
+   <tuple> <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/> <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_clear$0"/> </tuple>
+   <tuple> <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/> <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_detected$0"/> </tuple>
+   <tuple> <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/> <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_tested$0"/> </tuple>
+   <tuple> <atom label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel$0"/> <atom label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel_val0$0"/> </tuple>
+   <tuple> <atom label="cap_contactSensor/cap_contactSensor_attr_contact$0"/> <atom label="cap_contactSensor/cap_contactSensor_attr_contact_val_closed$0"/> </tuple>
+   <tuple> <atom label="cap_contactSensor/cap_contactSensor_attr_contact$0"/> <atom label="cap_contactSensor/cap_contactSensor_attr_contact_val_open$0"/> </tuple>
+   <tuple> <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance$0"/> <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance_val0$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_mode$0"/> <atom label="cap_location/cap_location_attr_mode_val_Home$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_mode$0"/> <atom label="cap_location/cap_location_attr_mode_val_Away$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_mode$0"/> <atom label="cap_location/cap_location_attr_mode_val_Night$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_mode$0"/> <atom label="cap_location/cap_location_attr_mode_val_Vacation$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_sunSet$0"/> <atom label="cap_location/cap_location_attr_sunSet_val_ON$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_sunSet$0"/> <atom label="cap_location/cap_location_attr_sunSet_val_OFF$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_sunRise$0"/> <atom label="cap_location/cap_location_attr_sunRise_val0$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_sunriseTime$0"/> <atom label="cap_location/cap_location_attr_sunriseTime_val0$0"/> </tuple>
+   <tuple> <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/> <atom label="cap_motionSensor/cap_motionSensor_attr_motion_val_active$0"/> </tuple>
+   <tuple> <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/> <atom label="cap_motionSensor/cap_motionSensor_attr_motion_val_inactive$0"/> </tuple>
+   <tuple> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence$0"/> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_present$0"/> </tuple>
+   <tuple> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence$0"/> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_not_present$0"/> </tuple>
+   <tuple> <atom label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity$0"/> <atom label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity_val0$0"/> </tuple>
+   <tuple> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_clear$0"/> </tuple>
+   <tuple> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_detected$0"/> </tuple>
+   <tuple> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_tested$0"/> </tuple>
+   <tuple> <atom label="cap_switch/cap_switch_attr_switch$0"/> <atom label="cap_switch/cap_switch_attr_switch_val_on$0"/> </tuple>
+   <tuple> <atom label="cap_switch/cap_switch_attr_switch$0"/> <atom label="cap_switch/cap_switch_attr_switch_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_switchLevel/cap_switchLevel_attr_level$0"/> <atom label="cap_switchLevel/cap_switchLevel_attr_level_val0$0"/> </tuple>
+   <tuple> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_low$0"/> </tuple>
+   <tuple> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_med$0"/> </tuple>
+   <tuple> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_high$0"/> </tuple>
+   <tuple> <atom label="cap_thermostat/cap_thermostat_attr_thermostat$0"/> <atom label="cap_thermostat/cap_thermostat_attr_thermostat_val_setHeatingSetpoint$0"/> </tuple>
+   <tuple> <atom label="cap_thermostat/cap_thermostat_attr_thermostat$0"/> <atom label="cap_thermostat/cap_thermostat_attr_thermostat_val_setCoolingSetpoint$0"/> </tuple>
+   <tuple> <atom label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState$0"/> <atom label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_on$0"/> </tuple>
+   <tuple> <atom label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState$0"/> <atom label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_valve/cap_valve_attr_valve$0"/> <atom label="cap_valve/cap_valve_attr_valve_val_closed$0"/> </tuple>
+   <tuple> <atom label="cap_valve/cap_valve_attr_valve$0"/> <atom label="cap_valve/cap_valve_attr_valve_val_open$0"/> </tuple>
+   <tuple> <atom label="cap_waterSensor/cap_waterSensor_attr_water$0"/> <atom label="cap_waterSensor/cap_waterSensor_attr_water_val_dry$0"/> </tuple>
+   <tuple> <atom label="cap_waterSensor/cap_waterSensor_attr_water$0"/> <atom label="cap_waterSensor/cap_waterSensor_attr_water_val_wet$0"/> </tuple>
+   <tuple> <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_heating$0"/> </tuple>
+   <tuple> <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_grill$0"/> </tuple>
+   <tuple> <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_warming$0"/> </tuple>
+   <tuple> <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_defrosting$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_homing$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_idle$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_charging$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_alarm$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_powerOff$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_reserve$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_point$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_after$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement$0"/> <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_cleaning$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_pushed$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_held$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_double$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_pushed_2x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_pushed_3x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_pushed_4x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_pushed_5x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_pushed_6x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_down$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_down_2x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_down_3x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_down_4x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_down_5x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_down_6x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_down_hold$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_up$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_up_2x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_up_3x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_up_4x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_up_5x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_up_6x$0"/> </tuple>
+   <tuple> <atom label="cap_button/cap_button_attr_button$0"/> <atom label="cap_button/cap_button_attr_button_val_up_hold$0"/> </tuple>
+   <tuple> <atom label="cap_runIn/cap_runIn_attr_runIn$0"/> <atom label="cap_runIn/cap_runIn_attr_runIn_val_on$0"/> </tuple>
+   <tuple> <atom label="cap_runIn/cap_runIn_attr_runIn$0"/> <atom label="cap_runIn/cap_runIn_attr_runIn_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_AM$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_CD$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_FM$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_HDMI$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_HDMI2$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_USB$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_YouTube$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_aux$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_bluetooth$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_digital$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_melon$0"/> </tuple>
+   <tuple> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource$0"/> <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_wifi$0"/> </tuple>
+   <tuple> <atom label="cap_powerSource/cap_powerSource_attr_powerSource$0"/> <atom label="cap_powerSource/cap_powerSource_attr_powerSource_val_battery$0"/> </tuple>
+   <tuple> <atom label="cap_powerSource/cap_powerSource_attr_powerSource$0"/> <atom label="cap_powerSource/cap_powerSource_attr_powerSource_val_dc$0"/> </tuple>
+   <tuple> <atom label="cap_powerSource/cap_powerSource_attr_powerSource$0"/> <atom label="cap_powerSource/cap_powerSource_attr_powerSource_val_mains$0"/> </tuple>
+   <tuple> <atom label="cap_powerSource/cap_powerSource_attr_powerSource$0"/> <atom label="cap_powerSource/cap_powerSource_attr_powerSource_val_unknown$0"/> </tuple>
+   <tuple> <atom label="cap_userInput/cap_userInput_attr_value$0"/> <atom label="cap_userInput/cap_userInput_attr_value_boolval_true$0"/> </tuple>
+   <tuple> <atom label="cap_userInput/cap_userInput_attr_value$0"/> <atom label="cap_userInput/cap_userInput_attr_value_boolval_false$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode$0"/> <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_auto$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode$0"/> <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_quick$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode$0"/> <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_rinse$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode$0"/> <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_dry$0"/> </tuple>
+   <tuple> <atom label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling$0"/> <atom label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling$0"/> <atom label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling_val_on$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_both$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_siren$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_strobe$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle$0"/> <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle_val_disabled$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle$0"/> <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle_val_enabled$0"/> </tuple>
+   <tuple> <atom label="cap_now/cap_now_attr_now$0"/> <atom label="cap_now/cap_now_attr_now_val0$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_locked$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_unknown$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_unlocked$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_unlock$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_unlocked_with_timeout$0"/> </tuple>
+   <tuple> <atom label="cap_soundSensor/cap_soundSensor_attr_sound$0"/> <atom label="cap_soundSensor/cap_soundSensor_attr_sound_val_detected$0"/> </tuple>
+   <tuple> <atom label="cap_soundSensor/cap_soundSensor_attr_sound$0"/> <atom label="cap_soundSensor/cap_soundSensor_attr_sound_val_not_detected$0"/> </tuple>
+   <tuple> <atom label="cap_filterStatus/cap_filterStatus_attr_filterStatus$0"/> <atom label="cap_filterStatus/cap_filterStatus_attr_filterStatus_val_normal$0"/> </tuple>
+   <tuple> <atom label="cap_filterStatus/cap_filterStatus_attr_filterStatus$0"/> <atom label="cap_filterStatus/cap_filterStatus_attr_filterStatus_val_replace$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode$0"/> <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val_all$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode$0"/> <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode$0"/> <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val_one$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode$0"/> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_auto$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode$0"/> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_part$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode$0"/> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_repeat$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode$0"/> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_manual$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode$0"/> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_stop$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode$0"/> <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_map$0"/> </tuple>
+   <tuple> <atom label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration$0"/> <atom label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration_val_active$0"/> </tuple>
+   <tuple> <atom label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration$0"/> <atom label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration_val_inactive$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode$0"/> <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val_on$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode$0"/> <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode$0"/> <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val_silence$0"/> </tuple>
+   <tuple> <atom label="cap_app/cap_app_attr_app$0"/> <atom label="cap_app/cap_app_attr_app_val_appTouch$0"/> </tuple>
+   <tuple> <atom label="cap_app/cap_app_attr_app$0"/> <atom label="cap_app/cap_app_attr_app_val_appTouch_Not$0"/> </tuple>
+   <tuple> <atom label="cap_voltageMeasurement/cap_voltageMeasurement_attr_voltage$0"/> <atom label="cap_voltageMeasurement/cap_voltageMeasurement_attr_voltage_val0$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val_pause$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val_run$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val_stop$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_airWash$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_cooling$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_delayWash$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_drying$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_finish$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_none$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_preWash$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_rinse$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_spin$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_wash$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_weightSensing$0"/> </tuple>
+   <tuple> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState$0"/> <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_wrinklePrevent$0"/> </tuple>
+   <tuple> <atom label="cap_tamperAlert/cap_tamperAlert_attr_tamper$0"/> <atom label="cap_tamperAlert/cap_tamperAlert_attr_tamper_val_clear$0"/> </tuple>
+   <tuple> <atom label="cap_tamperAlert/cap_tamperAlert_attr_tamper$0"/> <atom label="cap_tamperAlert/cap_tamperAlert_attr_tamper_val_detected$0"/> </tuple>
+   <tuple> <atom label="cap_ultravioletIndex/cap_ultravioletIndex_attr_ultravioletIndex$0"/> <atom label="cap_ultravioletIndex/cap_ultravioletIndex_attr_ultravioletIndex_val0$0"/> </tuple>
+   <tuple> <atom label="cap_windowShade/cap_windowShade_attr_windowShade$0"/> <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_closed$0"/> </tuple>
+   <tuple> <atom label="cap_windowShade/cap_windowShade_attr_windowShade$0"/> <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_closing$0"/> </tuple>
+   <tuple> <atom label="cap_windowShade/cap_windowShade_attr_windowShade$0"/> <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_open$0"/> </tuple>
+   <tuple> <atom label="cap_windowShade/cap_windowShade_attr_windowShade$0"/> <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_opening$0"/> </tuple>
+   <tuple> <atom label="cap_windowShade/cap_windowShade_attr_windowShade$0"/> <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_partially_open$0"/> </tuple>
+   <tuple> <atom label="cap_windowShade/cap_windowShade_attr_windowShade$0"/> <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_unknown$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode$0"/> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_auto$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode$0"/> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_cool$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode$0"/> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_eco$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode$0"/> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_rush_hour$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode$0"/> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_emergency_heat$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode$0"/> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_heat$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode$0"/> <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_threeAxis/cap_threeAxis_attr_unit$0"/> <atom label="cap_threeAxis/cap_threeAxis_attr_unit_val_mG$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState$0"/> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_cooling$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState$0"/> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_fan_only$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState$0"/> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_heating$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState$0"/> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_idle$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState$0"/> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_pending_cool$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState$0"/> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_pending_heat$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState$0"/> <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_vent_economizer$0"/> </tuple>
+   <tuple> <atom label="cap_colorControl/cap_colorControl_attr_color$0"/> <atom label="cap_colorControl/cap_colorControl_attr_color_val0$0"/> </tuple>
+   <tuple> <atom label="cap_colorControl/cap_colorControl_attr_hue$0"/> <atom label="cap_colorControl/cap_colorControl_attr_hue_val0$0"/> </tuple>
+   <tuple> <atom label="cap_colorControl/cap_colorControl_attr_saturation$0"/> <atom label="cap_colorControl/cap_colorControl_attr_saturation_val0$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val_pause$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val_run$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val_stop$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_cooling$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_delayWash$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_drying$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_finished$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_none$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_weightSensing$0"/> </tuple>
+   <tuple> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState$0"/> <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_wrinklePrevent$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode$0"/> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_auto$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode$0"/> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_circulate$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode$0"/> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_followschedule$0"/> </tuple>
+   <tuple> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode$0"/> <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_on$0"/> </tuple>
+   <tuple> <atom label="cap_musicPlayer/cap_musicPlayer_attr_mute$0"/> <atom label="cap_musicPlayer/cap_musicPlayer_attr_mute_val_muted$0"/> </tuple>
+   <tuple> <atom label="cap_musicPlayer/cap_musicPlayer_attr_mute$0"/> <atom label="cap_musicPlayer/cap_musicPlayer_attr_mute_val_unmuted$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus$0"/> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_pause$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus$0"/> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_play$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus$0"/> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_stop$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus$0"/> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_fast_forward$0"/> </tuple>
+   <tuple> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus$0"/> <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_rewind$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_auto$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_cool$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_dry$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_coolClean$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_dryClean$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_fanOnly$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_heat$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_heatClean$0"/> </tuple>
+   <tuple> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode$0"/> <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_notSupported$0"/> </tuple>
+   <tuple> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door$0"/> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_closed$0"/> </tuple>
+   <tuple> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door$0"/> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_closing$0"/> </tuple>
+   <tuple> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door$0"/> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_open$0"/> </tuple>
+   <tuple> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door$0"/> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_opening$0"/> </tuple>
+   <tuple> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door$0"/> <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_unknown$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_closed$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_closing$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_open$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_opening$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_unknown$0"/> </tuple>
+   <tuple> <atom label="cap_audioMute/cap_audioMute_attr_mute$0"/> <atom label="cap_audioMute/cap_audioMute_attr_mute_val_muted$0"/> </tuple>
+   <tuple> <atom label="cap_audioMute/cap_audioMute_attr_mute$0"/> <atom label="cap_audioMute/cap_audioMute_attr_mute_val_unmuted$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val_pause$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val_run$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val_stop$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_airwash$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_cooling$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_drying$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_finish$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_preDrain$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_prewash$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_rinse$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_spin$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_unknown$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_wash$0"/> </tuple>
+   <tuple> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState$0"/> <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_wrinklePrevent$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val_ready$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val_running$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val_paused$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_cleaning$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_cooking$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_cooling$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_draining$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_preheat$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_ready$0"/> </tuple>
+   <tuple> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState$0"/> <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_rinsing$0"/> </tuple>
+   <tuple> <atom label="cap_washerMode/cap_washerMode_attr_washerMode$0"/> <atom label="cap_washerMode/cap_washerMode_attr_washerMode_val_regular$0"/> </tuple>
+   <tuple> <atom label="cap_washerMode/cap_washerMode_attr_washerMode$0"/> <atom label="cap_washerMode/cap_washerMode_attr_washerMode_val_heavy$0"/> </tuple>
+   <tuple> <atom label="cap_washerMode/cap_washerMode_attr_washerMode$0"/> <atom label="cap_washerMode/cap_washerMode_attr_washerMode_val_rinse$0"/> </tuple>
+   <tuple> <atom label="cap_washerMode/cap_washerMode_attr_washerMode$0"/> <atom label="cap_washerMode/cap_washerMode_attr_washerMode_val_spinDry$0"/> </tuple>
+   <tuple> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode$0"/> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_regular$0"/> </tuple>
+   <tuple> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode$0"/> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_lowHeat$0"/> </tuple>
+   <tuple> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode$0"/> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_highHeat$0"/> </tuple>
+   <tuple> <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode$0"/> <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_reading$0"/> </tuple>
+   <tuple> <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode$0"/> <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_writing$0"/> </tuple>
+   <tuple> <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode$0"/> <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_computer$0"/> </tuple>
+   <tuple> <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode$0"/> <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_night$0"/> </tuple>
+   <types> <type ID="86"/> <type ID="282"/> </types>
+</field>
+
+<sig label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide_val0" ID="283" parentID="284" one="yes">
+   <atom label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide_val0$0"/>
+</sig>
+
+<sig label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide_val" ID="284" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_clear" ID="285" parentID="286" one="yes">
+   <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_clear$0"/>
+</sig>
+
+<sig label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_detected" ID="287" parentID="286" one="yes">
+   <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_detected$0"/>
+</sig>
+
+<sig label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_tested" ID="288" parentID="286" one="yes">
+   <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_tested$0"/>
+</sig>
+
+<sig label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val" ID="286" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel_val0" ID="289" parentID="290" one="yes">
+   <atom label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel_val0$0"/>
+</sig>
+
+<sig label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel_val" ID="290" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr_contact_val_closed" ID="291" parentID="292" one="yes">
+   <atom label="cap_contactSensor/cap_contactSensor_attr_contact_val_closed$0"/>
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr_contact_val_open" ID="293" parentID="292" one="yes">
+   <atom label="cap_contactSensor/cap_contactSensor_attr_contact_val_open$0"/>
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr_contact_val" ID="292" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance_val0" ID="294" parentID="295" one="yes">
+   <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance_val0$0"/>
+</sig>
+
+<sig label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance_val" ID="295" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val_Home" ID="296" parentID="297" one="yes">
+   <atom label="cap_location/cap_location_attr_mode_val_Home$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val_Away" ID="298" parentID="297" one="yes">
+   <atom label="cap_location/cap_location_attr_mode_val_Away$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val_Night" ID="299" parentID="297" one="yes">
+   <atom label="cap_location/cap_location_attr_mode_val_Night$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val_Vacation" ID="300" parentID="297" one="yes">
+   <atom label="cap_location/cap_location_attr_mode_val_Vacation$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val" ID="297" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_position_val" ID="301" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunSet_val_ON" ID="302" parentID="303" one="yes">
+   <atom label="cap_location/cap_location_attr_sunSet_val_ON$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunSet_val_OFF" ID="304" parentID="303" one="yes">
+   <atom label="cap_location/cap_location_attr_sunSet_val_OFF$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunSet_val" ID="303" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise_val0" ID="305" parentID="306" one="yes">
+   <atom label="cap_location/cap_location_attr_sunRise_val0$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise_val_ON" ID="307" parentID="306" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise_val_OFF" ID="308" parentID="306" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise_val" ID="306" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunsetTime_val" ID="309" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunriseTime_val0" ID="310" parentID="311" one="yes">
+   <atom label="cap_location/cap_location_attr_sunriseTime_val0$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunriseTime_val" ID="311" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr_motion_val_active" ID="312" parentID="313" one="yes">
+   <atom label="cap_motionSensor/cap_motionSensor_attr_motion_val_active$0"/>
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr_motion_val_inactive" ID="314" parentID="313" one="yes">
+   <atom label="cap_motionSensor/cap_motionSensor_attr_motion_val_inactive$0"/>
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr_motion_val" ID="313" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_present" ID="315" parentID="316" one="yes">
+   <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_present$0"/>
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_not_present" ID="317" parentID="316" one="yes">
+   <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_not_present$0"/>
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr_presence_val" ID="316" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity_val0" ID="318" parentID="319" one="yes">
+   <atom label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity_val0$0"/>
+</sig>
+
+<sig label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity_val" ID="319" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_clear" ID="320" parentID="321" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_clear$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_detected" ID="322" parentID="321" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_detected$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_tested" ID="323" parentID="321" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_tested$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val" ID="321" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_switch/cap_switch_attr_switch_val_on" ID="324" parentID="325" one="yes">
+   <atom label="cap_switch/cap_switch_attr_switch_val_on$0"/>
+</sig>
+
+<sig label="cap_switch/cap_switch_attr_switch_val_off" ID="326" parentID="325" one="yes">
+   <atom label="cap_switch/cap_switch_attr_switch_val_off$0"/>
+</sig>
+
+<sig label="cap_switch/cap_switch_attr_switch_val" ID="325" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_switchLevel/cap_switchLevel_attr_level_val0" ID="327" parentID="328" one="yes">
+   <atom label="cap_switchLevel/cap_switchLevel_attr_level_val0$0"/>
+</sig>
+
+<sig label="cap_switchLevel/cap_switchLevel_attr_level_val" ID="328" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_low" ID="329" parentID="330" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_low$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_med" ID="331" parentID="330" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_med$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_high" ID="332" parentID="330" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_high$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val" ID="330" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat_attr_thermostat_val_setHeatingSetpoint" ID="333" parentID="334" one="yes">
+   <atom label="cap_thermostat/cap_thermostat_attr_thermostat_val_setHeatingSetpoint$0"/>
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat_attr_thermostat_val_setCoolingSetpoint" ID="335" parentID="334" one="yes">
+   <atom label="cap_thermostat/cap_thermostat_attr_thermostat_val_setCoolingSetpoint$0"/>
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat_attr_thermostat_val" ID="334" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_on" ID="336" parentID="337" one="yes">
+   <atom label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_on$0"/>
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_off" ID="338" parentID="337" one="yes">
+   <atom label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_off$0"/>
+</sig>
+
+<sig label="cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val" ID="337" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_valve/cap_valve_attr_valve_val_closed" ID="339" parentID="340" one="yes">
+   <atom label="cap_valve/cap_valve_attr_valve_val_closed$0"/>
+</sig>
+
+<sig label="cap_valve/cap_valve_attr_valve_val_open" ID="341" parentID="340" one="yes">
+   <atom label="cap_valve/cap_valve_attr_valve_val_open$0"/>
+</sig>
+
+<sig label="cap_valve/cap_valve_attr_valve_val" ID="340" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_waterSensor/cap_waterSensor_attr_water_val_dry" ID="342" parentID="343" one="yes">
+   <atom label="cap_waterSensor/cap_waterSensor_attr_water_val_dry$0"/>
+</sig>
+
+<sig label="cap_waterSensor/cap_waterSensor_attr_water_val_wet" ID="344" parentID="343" one="yes">
+   <atom label="cap_waterSensor/cap_waterSensor_attr_water_val_wet$0"/>
+</sig>
+
+<sig label="cap_waterSensor/cap_waterSensor_attr_water_val" ID="343" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_heating" ID="345" parentID="346" one="yes">
+   <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_heating$0"/>
+</sig>
+
+<sig label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_grill" ID="347" parentID="346" one="yes">
+   <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_grill$0"/>
+</sig>
+
+<sig label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_warming" ID="348" parentID="346" one="yes">
+   <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_warming$0"/>
+</sig>
+
+<sig label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_defrosting" ID="349" parentID="346" one="yes">
+   <atom label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val_defrosting$0"/>
+</sig>
+
+<sig label="cap_ovenMode/cap_ovenMode_attr_ovenMode_val" ID="346" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_fanSpeed/cap_fanSpeed_attr_fanSpeed_val" ID="350" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_homing" ID="351" parentID="352" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_homing$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_idle" ID="353" parentID="352" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_idle$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_charging" ID="354" parentID="352" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_charging$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_alarm" ID="355" parentID="352" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_alarm$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_powerOff" ID="356" parentID="352" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_powerOff$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_reserve" ID="357" parentID="352" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_reserve$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_point" ID="358" parentID="352" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_point$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_after" ID="359" parentID="352" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_after$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_cleaning" ID="360" parentID="352" one="yes">
+   <atom label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val_cleaning$0"/>
+</sig>
+
+<sig label="cap_robotCleanerMovement/cap_robotCleanerMovement_attr_robotCleanerMovement_val" ID="352" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_pushed" ID="361" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_pushed$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_held" ID="363" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_held$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_double" ID="364" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_double$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_pushed_2x" ID="365" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_pushed_2x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_pushed_3x" ID="366" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_pushed_3x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_pushed_4x" ID="367" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_pushed_4x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_pushed_5x" ID="368" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_pushed_5x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_pushed_6x" ID="369" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_pushed_6x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_down" ID="370" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_down$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_down_2x" ID="371" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_down_2x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_down_3x" ID="372" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_down_3x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_down_4x" ID="373" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_down_4x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_down_5x" ID="374" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_down_5x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_down_6x" ID="375" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_down_6x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_down_hold" ID="376" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_down_hold$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_up" ID="377" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_up$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_up_2x" ID="378" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_up_2x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_up_3x" ID="379" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_up_3x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_up_4x" ID="380" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_up_4x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_up_5x" ID="381" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_up_5x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_up_6x" ID="382" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_up_6x$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val_up_hold" ID="383" parentID="362" one="yes">
+   <atom label="cap_button/cap_button_attr_button_val_up_hold$0"/>
+</sig>
+
+<sig label="cap_button/cap_button_attr_button_val" ID="362" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_button/cap_button_attr_numberOfButtons_val" ID="384" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_button/cap_button_attr_supportedButtonValues_val" ID="385" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr_runIn_val_on" ID="386" parentID="387" one="yes">
+   <atom label="cap_runIn/cap_runIn_attr_runIn_val_on$0"/>
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr_runIn_val_off" ID="388" parentID="387" one="yes">
+   <atom label="cap_runIn/cap_runIn_attr_runIn_val_off$0"/>
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr_val" ID="387" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_powerMeter/cap_powerMeter_attr_power_val" ID="389" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_AM" ID="390" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_AM$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_CD" ID="392" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_CD$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_FM" ID="393" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_FM$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_HDMI" ID="394" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_HDMI$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_HDMI2" ID="395" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_HDMI2$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_USB" ID="396" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_USB$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_YouTube" ID="397" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_YouTube$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_aux" ID="398" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_aux$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_bluetooth" ID="399" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_bluetooth$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_digital" ID="400" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_digital$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_melon" ID="401" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_melon$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_wifi" ID="402" parentID="391" one="yes">
+   <atom label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val_wifi$0"/>
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_inputSource_val" ID="391" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_mediaInputSource/cap_mediaInputSource_attr_supportedInputSources_val" ID="403" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_powerSource/cap_powerSource_attr_powerSource_val_battery" ID="404" parentID="405" one="yes">
+   <atom label="cap_powerSource/cap_powerSource_attr_powerSource_val_battery$0"/>
+</sig>
+
+<sig label="cap_powerSource/cap_powerSource_attr_powerSource_val_dc" ID="406" parentID="405" one="yes">
+   <atom label="cap_powerSource/cap_powerSource_attr_powerSource_val_dc$0"/>
+</sig>
+
+<sig label="cap_powerSource/cap_powerSource_attr_powerSource_val_mains" ID="407" parentID="405" one="yes">
+   <atom label="cap_powerSource/cap_powerSource_attr_powerSource_val_mains$0"/>
+</sig>
+
+<sig label="cap_powerSource/cap_powerSource_attr_powerSource_val_unknown" ID="408" parentID="405" one="yes">
+   <atom label="cap_powerSource/cap_powerSource_attr_powerSource_val_unknown$0"/>
+</sig>
+
+<sig label="cap_powerSource/cap_powerSource_attr_powerSource_val" ID="405" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_userInput/cap_userInput_attr_value_boolval_true" ID="409" parentID="410" one="yes">
+   <atom label="cap_userInput/cap_userInput_attr_value_boolval_true$0"/>
+</sig>
+
+<sig label="cap_userInput/cap_userInput_attr_value_boolval_false" ID="411" parentID="410" one="yes">
+   <atom label="cap_userInput/cap_userInput_attr_value_boolval_false$0"/>
+</sig>
+
+<sig label="cap_userInput/cap_userInput_attr_value_boolval" ID="410" parentID="412" abstract="yes">
+</sig>
+
+<sig label="cap_userInput/cap_userInput_attr_value_val" ID="412" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_auto" ID="413" parentID="414" one="yes">
+   <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_auto$0"/>
+</sig>
+
+<sig label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_quick" ID="415" parentID="414" one="yes">
+   <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_quick$0"/>
+</sig>
+
+<sig label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_rinse" ID="416" parentID="414" one="yes">
+   <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_rinse$0"/>
+</sig>
+
+<sig label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_dry" ID="417" parentID="414" one="yes">
+   <atom label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val_dry$0"/>
+</sig>
+
+<sig label="cap_dishwasherMode/cap_dishwasherMode_attr_dishwasherMode_val" ID="414" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling_val_off" ID="418" parentID="419" one="yes">
+   <atom label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling_val_off$0"/>
+</sig>
+
+<sig label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling_val_on" ID="420" parentID="419" one="yes">
+   <atom label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling_val_on$0"/>
+</sig>
+
+<sig label="cap_rapidCooling/cap_rapidCooling_attr_rapidCooling_val" ID="419" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_ovenSetpoint/cap_ovenSetpoint_attr_ovenSetpoint_val" ID="421" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val_both" ID="422" parentID="423" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm_val_both$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val_off" ID="424" parentID="423" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm_val_off$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val_siren" ID="425" parentID="423" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm_val_siren$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val_strobe" ID="426" parentID="423" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm_val_strobe$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val" ID="423" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatCoolingSetpoint/cap_thermostatCoolingSetpoint_attr_coolingSetpoint_val" ID="427" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_infraredLevel/cap_infraredLevel_attr_infraredLevel_val" ID="428" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_odorSensor/cap_odorSensor_attr_odorLevel_val" ID="429" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle_val_disabled" ID="430" parentID="431" one="yes">
+   <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle_val_disabled$0"/>
+</sig>
+
+<sig label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle_val_enabled" ID="432" parentID="431" one="yes">
+   <atom label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle_val_enabled$0"/>
+</sig>
+
+<sig label="cap_mediaPlaybackShuffle/cap_mediaPlaybackShuffle_attr_playbackShuffle_val" ID="431" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_now/cap_now_attr_now_val0" ID="433" parentID="434" one="yes">
+   <atom label="cap_now/cap_now_attr_now_val0$0"/>
+</sig>
+
+<sig label="cap_now/cap_now_attr_now_val" ID="434" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_battery/cap_battery_attr_battery_val" ID="435" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_audioVolume/cap_audioVolume_attr_volume_val" ID="436" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatHeatingSetpoint/cap_thermostatHeatingSetpoint_attr_heatingSetpoint_val" ID="437" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_locked" ID="438" parentID="439" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_locked$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_unknown" ID="440" parentID="439" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_unknown$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_unlocked" ID="441" parentID="439" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_unlocked$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_unlock" ID="442" parentID="439" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_unlock$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_unlocked_with_timeout" ID="443" parentID="439" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_unlocked_with_timeout$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val" ID="439" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_soundSensor/cap_soundSensor_attr_sound_val_detected" ID="444" parentID="445" one="yes">
+   <atom label="cap_soundSensor/cap_soundSensor_attr_sound_val_detected$0"/>
+</sig>
+
+<sig label="cap_soundSensor/cap_soundSensor_attr_sound_val_not_detected" ID="446" parentID="445" one="yes">
+   <atom label="cap_soundSensor/cap_soundSensor_attr_sound_val_not_detected$0"/>
+</sig>
+
+<sig label="cap_soundSensor/cap_soundSensor_attr_sound_val" ID="445" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_filterStatus/cap_filterStatus_attr_filterStatus_val_normal" ID="447" parentID="448" one="yes">
+   <atom label="cap_filterStatus/cap_filterStatus_attr_filterStatus_val_normal$0"/>
+</sig>
+
+<sig label="cap_filterStatus/cap_filterStatus_attr_filterStatus_val_replace" ID="449" parentID="448" one="yes">
+   <atom label="cap_filterStatus/cap_filterStatus_attr_filterStatus_val_replace$0"/>
+</sig>
+
+<sig label="cap_filterStatus/cap_filterStatus_attr_filterStatus_val" ID="448" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_energyMeter/cap_energyMeter_attr_energy_val" ID="450" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val_all" ID="451" parentID="452" one="yes">
+   <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val_all$0"/>
+</sig>
+
+<sig label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val_off" ID="453" parentID="452" one="yes">
+   <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val_off$0"/>
+</sig>
+
+<sig label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val_one" ID="454" parentID="452" one="yes">
+   <atom label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val_one$0"/>
+</sig>
+
+<sig label="cap_mediaPlaybackRepeat/cap_mediaPlaybackRepeat_attr_playbackRepeatMode_val" ID="452" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_auto" ID="455" parentID="456" one="yes">
+   <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_auto$0"/>
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_part" ID="457" parentID="456" one="yes">
+   <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_part$0"/>
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_repeat" ID="458" parentID="456" one="yes">
+   <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_repeat$0"/>
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_manual" ID="459" parentID="456" one="yes">
+   <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_manual$0"/>
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_stop" ID="460" parentID="456" one="yes">
+   <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_stop$0"/>
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_map" ID="461" parentID="456" one="yes">
+   <atom label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val_map$0"/>
+</sig>
+
+<sig label="cap_robotCleanerCleaningMode/cap_robotCleanerCleaningMode_attr_robotCleanerCleaningMode_val" ID="456" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_tvChannel/cap_tvChannel_attr_tvChannel_val" ID="462" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration_val_active" ID="463" parentID="464" one="yes">
+   <atom label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration_val_active$0"/>
+</sig>
+
+<sig label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration_val_inactive" ID="465" parentID="464" one="yes">
+   <atom label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration_val_inactive$0"/>
+</sig>
+
+<sig label="cap_accelerationSensor/cap_accelerationSensor_attr_acceleration_val" ID="464" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_signalStrength/cap_signalStrength_attr_lqi_val" ID="466" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_signalStrength/cap_signalStrength_attr_rssi_val" ID="467" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dustSensor/cap_dustSensor_attr_fineDustLevel_val" ID="468" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dustSensor/cap_dustSensor_attr_dustLevel_val" ID="469" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val_on" ID="470" parentID="471" one="yes">
+   <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val_on$0"/>
+</sig>
+
+<sig label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val_off" ID="472" parentID="471" one="yes">
+   <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val_off$0"/>
+</sig>
+
+<sig label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val_silence" ID="473" parentID="471" one="yes">
+   <atom label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val_silence$0"/>
+</sig>
+
+<sig label="cap_robotCleanerTurboMode/cap_robotCleanerTurboMode_attr_robotCleanerTurboMode_val" ID="471" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_app/cap_app_attr_app_val_appTouch" ID="474" parentID="475" one="yes">
+   <atom label="cap_app/cap_app_attr_app_val_appTouch$0"/>
+</sig>
+
+<sig label="cap_app/cap_app_attr_app_val_appTouch_Not" ID="476" parentID="475" one="yes">
+   <atom label="cap_app/cap_app_attr_app_val_appTouch_Not$0"/>
+</sig>
+
+<sig label="cap_app/cap_app_attr_app_val" ID="475" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_formaldehydeMeasurement/cap_formaldehydeMeasurement_attr_formaldehydeLevel_val" ID="477" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_voltageMeasurement/cap_voltageMeasurement_attr_voltage_val0" ID="478" parentID="479" one="yes">
+   <atom label="cap_voltageMeasurement/cap_voltageMeasurement_attr_voltage_val0$0"/>
+</sig>
+
+<sig label="cap_voltageMeasurement/cap_voltageMeasurement_attr_voltage_val" ID="479" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_airQualitySensor/cap_airQualitySensor_attr_airQuality_val" ID="480" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val_pause" ID="481" parentID="482" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val_pause$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val_run" ID="483" parentID="482" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val_run$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val_stop" ID="484" parentID="482" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val_stop$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_machineState_val" ID="482" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_supportedMachineStates_val" ID="485" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_airWash" ID="486" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_airWash$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_cooling" ID="488" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_cooling$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_delayWash" ID="489" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_delayWash$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_drying" ID="490" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_drying$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_finish" ID="491" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_finish$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_none" ID="492" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_none$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_preWash" ID="493" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_preWash$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_rinse" ID="494" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_rinse$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_spin" ID="495" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_spin$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_wash" ID="496" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_wash$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_weightSensing" ID="497" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_weightSensing$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_wrinklePrevent" ID="498" parentID="487" one="yes">
+   <atom label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val_wrinklePrevent$0"/>
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_washerJobState_val" ID="487" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_washerOperatingState/cap_washerOperatingState_attr_completionTime_val" ID="499" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_refrigerationSetpoint/cap_refrigerationSetpoint_attr_refrigerationSetpoint_val" ID="500" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_equivalentCarbonDioxideMeasurement/cap_equivalentCarbonDioxideMeasurement_attr_equivalentCarbonDioxideMeasurement_val" ID="501" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_tamperAlert/cap_tamperAlert_attr_tamper_val_clear" ID="502" parentID="503" one="yes">
+   <atom label="cap_tamperAlert/cap_tamperAlert_attr_tamper_val_clear$0"/>
+</sig>
+
+<sig label="cap_tamperAlert/cap_tamperAlert_attr_tamper_val_detected" ID="504" parentID="503" one="yes">
+   <atom label="cap_tamperAlert/cap_tamperAlert_attr_tamper_val_detected$0"/>
+</sig>
+
+<sig label="cap_tamperAlert/cap_tamperAlert_attr_tamper_val" ID="503" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_ultravioletIndex/cap_ultravioletIndex_attr_ultravioletIndex_val0" ID="505" parentID="506" one="yes">
+   <atom label="cap_ultravioletIndex/cap_ultravioletIndex_attr_ultravioletIndex_val0$0"/>
+</sig>
+
+<sig label="cap_ultravioletIndex/cap_ultravioletIndex_attr_ultravioletIndex_val" ID="506" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_colorTemperature/cap_colorTemperature_attr_colorTemperature_val" ID="507" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade_attr_windowShade_val_closed" ID="508" parentID="509" one="yes">
+   <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_closed$0"/>
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade_attr_windowShade_val_closing" ID="510" parentID="509" one="yes">
+   <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_closing$0"/>
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade_attr_windowShade_val_open" ID="511" parentID="509" one="yes">
+   <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_open$0"/>
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade_attr_windowShade_val_opening" ID="512" parentID="509" one="yes">
+   <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_opening$0"/>
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade_attr_windowShade_val_partially_open" ID="513" parentID="509" one="yes">
+   <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_partially_open$0"/>
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade_attr_windowShade_val_unknown" ID="514" parentID="509" one="yes">
+   <atom label="cap_windowShade/cap_windowShade_attr_windowShade_val_unknown$0"/>
+</sig>
+
+<sig label="cap_windowShade/cap_windowShade_attr_windowShade_val" ID="509" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_auto" ID="515" parentID="516" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_auto$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_cool" ID="517" parentID="516" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_cool$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_eco" ID="518" parentID="516" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_eco$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_rush_hour" ID="519" parentID="516" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_rush_hour$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_emergency_heat" ID="520" parentID="516" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_emergency_heat$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_heat" ID="521" parentID="516" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_heat$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_off" ID="522" parentID="516" one="yes">
+   <atom label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val_off$0"/>
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_thermostatMode_val" ID="516" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatMode/cap_thermostatMode_attr_supportedThermostatModes_val" ID="523" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_threeAxis/cap_threeAxis_attr_value_val" ID="524" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_threeAxis/cap_threeAxis_attr_unit_val_mG" ID="525" parentID="526" one="yes">
+   <atom label="cap_threeAxis/cap_threeAxis_attr_unit_val_mG$0"/>
+</sig>
+
+<sig label="cap_threeAxis/cap_threeAxis_attr_unit_val" ID="526" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_imageCapture/cap_imageCapture_attr_val" ID="527" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_cooling" ID="528" parentID="529" one="yes">
+   <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_cooling$0"/>
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_fan_only" ID="530" parentID="529" one="yes">
+   <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_fan_only$0"/>
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_heating" ID="531" parentID="529" one="yes">
+   <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_heating$0"/>
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_idle" ID="532" parentID="529" one="yes">
+   <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_idle$0"/>
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_pending_cool" ID="533" parentID="529" one="yes">
+   <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_pending_cool$0"/>
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_pending_heat" ID="534" parentID="529" one="yes">
+   <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_pending_heat$0"/>
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_vent_economizer" ID="535" parentID="529" one="yes">
+   <atom label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val_vent_economizer$0"/>
+</sig>
+
+<sig label="cap_thermostatOperatingState/cap_thermostatOperatingState_attr_thermostatOperatingState_val" ID="529" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr_color_val0" ID="536" parentID="537" one="yes">
+   <atom label="cap_colorControl/cap_colorControl_attr_color_val0$0"/>
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr_color_val" ID="537" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr_hue_val0" ID="538" parentID="539" one="yes">
+   <atom label="cap_colorControl/cap_colorControl_attr_hue_val0$0"/>
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr_hue_val" ID="539" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr_saturation_val0" ID="540" parentID="541" one="yes">
+   <atom label="cap_colorControl/cap_colorControl_attr_saturation_val0$0"/>
+</sig>
+
+<sig label="cap_colorControl/cap_colorControl_attr_saturation_val" ID="541" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val_pause" ID="542" parentID="543" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val_pause$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val_run" ID="544" parentID="543" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val_run$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val_stop" ID="545" parentID="543" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val_stop$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_machineState_val" ID="543" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_supportedMachineStates_val" ID="546" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_cooling" ID="547" parentID="548" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_cooling$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_delayWash" ID="549" parentID="548" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_delayWash$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_drying" ID="550" parentID="548" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_drying$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_finished" ID="551" parentID="548" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_finished$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_none" ID="552" parentID="548" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_none$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_weightSensing" ID="553" parentID="548" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_weightSensing$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_wrinklePrevent" ID="554" parentID="548" one="yes">
+   <atom label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val_wrinklePrevent$0"/>
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_dryerJobState_val" ID="548" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dryerOperatingState/cap_dryerOperatingState_attr_completionTime_val" ID="555" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_auto" ID="556" parentID="557" one="yes">
+   <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_auto$0"/>
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_circulate" ID="558" parentID="557" one="yes">
+   <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_circulate$0"/>
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_followschedule" ID="559" parentID="557" one="yes">
+   <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_followschedule$0"/>
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_on" ID="560" parentID="557" one="yes">
+   <atom label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val_on$0"/>
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode_attr_thermostatFanMode_val" ID="557" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatFanMode/cap_thermostatFanMode_attr_supportedThermostatFanModes_val" ID="561" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_thermostatSetpoint/cap_thermostatSetpoint_attr_thermostatSetpoint_val" ID="562" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_level_val" ID="563" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_mute_val_muted" ID="564" parentID="565" one="yes">
+   <atom label="cap_musicPlayer/cap_musicPlayer_attr_mute_val_muted$0"/>
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_mute_val_unmuted" ID="566" parentID="565" one="yes">
+   <atom label="cap_musicPlayer/cap_musicPlayer_attr_mute_val_unmuted$0"/>
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_mute_val" ID="565" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_status_val" ID="567" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_trackData_val" ID="568" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_trackDescription_val" ID="569" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_musicPlayer/cap_musicPlayer_attr_playTrack_val" ID="570" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_pause" ID="571" parentID="572" one="yes">
+   <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_pause$0"/>
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_play" ID="573" parentID="572" one="yes">
+   <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_play$0"/>
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_stop" ID="574" parentID="572" one="yes">
+   <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_stop$0"/>
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_fast_forward" ID="575" parentID="572" one="yes">
+   <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_fast_forward$0"/>
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_rewind" ID="576" parentID="572" one="yes">
+   <atom label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val_rewind$0"/>
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr_playbackStatus_val" ID="572" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_mediaPlayback/cap_mediaPlayback_attr_supportedPlaybackCommands_val" ID="577" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_auto" ID="578" parentID="579" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_auto$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_cool" ID="580" parentID="579" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_cool$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_dry" ID="581" parentID="579" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_dry$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_coolClean" ID="582" parentID="579" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_coolClean$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_dryClean" ID="583" parentID="579" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_dryClean$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_fanOnly" ID="584" parentID="579" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_fanOnly$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_heat" ID="585" parentID="579" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_heat$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_heatClean" ID="586" parentID="579" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_heatClean$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_notSupported" ID="587" parentID="579" one="yes">
+   <atom label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val_notSupported$0"/>
+</sig>
+
+<sig label="cap_airConditionerMode/cap_airConditionerMode_attr_airConditionerMode_val" ID="579" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_closed" ID="588" parentID="589" one="yes">
+   <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_closed$0"/>
+</sig>
+
+<sig label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_closing" ID="590" parentID="589" one="yes">
+   <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_closing$0"/>
+</sig>
+
+<sig label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_open" ID="591" parentID="589" one="yes">
+   <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_open$0"/>
+</sig>
+
+<sig label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_opening" ID="592" parentID="589" one="yes">
+   <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_opening$0"/>
+</sig>
+
+<sig label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_unknown" ID="593" parentID="589" one="yes">
+   <atom label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val_unknown$0"/>
+</sig>
+
+<sig label="cap_garageDoorControl/cap_garageDoorControl_attr_door_val" ID="589" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_closed" ID="594" parentID="595" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_closed$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_closing" ID="596" parentID="595" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_closing$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_open" ID="597" parentID="595" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_open$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_opening" ID="598" parentID="595" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_opening$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_unknown" ID="599" parentID="595" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_unknown$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val" ID="595" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_audioMute/cap_audioMute_attr_mute_val_muted" ID="600" parentID="601" one="yes">
+   <atom label="cap_audioMute/cap_audioMute_attr_mute_val_muted$0"/>
+</sig>
+
+<sig label="cap_audioMute/cap_audioMute_attr_mute_val_unmuted" ID="602" parentID="601" one="yes">
+   <atom label="cap_audioMute/cap_audioMute_attr_mute_val_unmuted$0"/>
+</sig>
+
+<sig label="cap_audioMute/cap_audioMute_attr_mute_val" ID="601" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val_pause" ID="603" parentID="604" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val_pause$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val_run" ID="605" parentID="604" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val_run$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val_stop" ID="606" parentID="604" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val_stop$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_machineState_val" ID="604" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_supportedMachineStates_val" ID="607" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_airwash" ID="608" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_airwash$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_cooling" ID="610" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_cooling$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_drying" ID="611" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_drying$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_finish" ID="612" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_finish$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_preDrain" ID="613" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_preDrain$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_prewash" ID="614" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_prewash$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_rinse" ID="615" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_rinse$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_spin" ID="616" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_spin$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_unknown" ID="617" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_unknown$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_wash" ID="618" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_wash$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_wrinklePrevent" ID="619" parentID="609" one="yes">
+   <atom label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val_wrinklePrevent$0"/>
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_dishwasherJobState_val" ID="609" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dishwasherOperatingState/cap_dishwasherOperatingState_attr_completionTime_val" ID="620" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val_ready" ID="621" parentID="622" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val_ready$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val_running" ID="623" parentID="622" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val_running$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val_paused" ID="624" parentID="622" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val_paused$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_machineState_val" ID="622" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_supportedMachineStates_val" ID="625" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_cleaning" ID="626" parentID="627" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_cleaning$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_cooking" ID="628" parentID="627" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_cooking$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_cooling" ID="629" parentID="627" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_cooling$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_draining" ID="630" parentID="627" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_draining$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_preheat" ID="631" parentID="627" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_preheat$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_ready" ID="632" parentID="627" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_ready$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_rinsing" ID="633" parentID="627" one="yes">
+   <atom label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val_rinsing$0"/>
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_ovenJobState_val" ID="627" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_completionTime_val" ID="634" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_operationTime_val" ID="635" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_ovenOperatingState/cap_ovenOperatingState_attr_progress_val" ID="636" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_washerMode/cap_washerMode_attr_washerMode_val_regular" ID="637" parentID="638" one="yes">
+   <atom label="cap_washerMode/cap_washerMode_attr_washerMode_val_regular$0"/>
+</sig>
+
+<sig label="cap_washerMode/cap_washerMode_attr_washerMode_val_heavy" ID="639" parentID="638" one="yes">
+   <atom label="cap_washerMode/cap_washerMode_attr_washerMode_val_heavy$0"/>
+</sig>
+
+<sig label="cap_washerMode/cap_washerMode_attr_washerMode_val_rinse" ID="640" parentID="638" one="yes">
+   <atom label="cap_washerMode/cap_washerMode_attr_washerMode_val_rinse$0"/>
+</sig>
+
+<sig label="cap_washerMode/cap_washerMode_attr_washerMode_val_spinDry" ID="641" parentID="638" one="yes">
+   <atom label="cap_washerMode/cap_washerMode_attr_washerMode_val_spinDry$0"/>
+</sig>
+
+<sig label="cap_washerMode/cap_washerMode_attr_washerMode_val" ID="638" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_regular" ID="642" parentID="643" one="yes">
+   <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_regular$0"/>
+</sig>
+
+<sig label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_lowHeat" ID="644" parentID="643" one="yes">
+   <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_lowHeat$0"/>
+</sig>
+
+<sig label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_highHeat" ID="645" parentID="643" one="yes">
+   <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_highHeat$0"/>
+</sig>
+
+<sig label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val" ID="643" parentID="282" abstract="yes">
+</sig>
+
+<sig label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_reading" ID="646" parentID="647" one="yes">
+   <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_reading$0"/>
+</sig>
+
+<sig label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_writing" ID="648" parentID="647" one="yes">
+   <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_writing$0"/>
+</sig>
+
+<sig label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_computer" ID="649" parentID="647" one="yes">
+   <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_computer$0"/>
+</sig>
+
+<sig label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_night" ID="650" parentID="647" one="yes">
+   <atom label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val_night$0"/>
+</sig>
+
+<sig label="cap_activityLightingMode/cap_activityLightingMode_attr_lightingMode_val" ID="647" parentID="282" abstract="yes">
+</sig>
+
+<sig label="base/AttrValue" ID="282" parentID="2" abstract="yes">
+</sig>
+
+<sig label="app_B5_App2/app_B5_App2" ID="651" parentID="652" one="yes">
+   <atom label="app_B5_App2/app_B5_App2$0"/>
+</sig>
+
+<field label="lightSensor" ID="653" parentID="651">
+   <tuple> <atom label="app_B5_App2/app_B5_App2$0"/> <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement$0"/> </tuple>
+   <types> <type ID="651"/> <type ID="9"/> </types>
+</field>
+
+<field label="bulbSw" ID="654" parentID="651">
+   <tuple> <atom label="app_B5_App2/app_B5_App2$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <types> <type ID="651"/> <type ID="15"/> </types>
+</field>
+
+<sig label="app_B5_App1/app_B5_App1" ID="655" parentID="652" one="yes">
+   <atom label="app_B5_App1/app_B5_App1$0"/>
+</sig>
+
+<field label="motion1" ID="656" parentID="655">
+   <tuple> <atom label="app_B5_App1/app_B5_App1$0"/> <atom label="cap_motionSensor/cap_motionSensor$0"/> </tuple>
+   <types> <type ID="655"/> <type ID="11"/> </types>
+</field>
+
+<field label="bulb" ID="657" parentID="655">
+   <tuple> <atom label="app_B5_App1/app_B5_App1$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <types> <type ID="655"/> <type ID="15"/> </types>
+</field>
+
+<sig label="base/IoTApp" ID="652" parentID="2" abstract="yes">
+</sig>
+
+<field label="rules" ID="658" parentID="652">
+   <tuple> <atom label="app_B5_App2/app_B5_App2$0"/> <atom label="app_B5_App2/r0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/app_B5_App1$0"/> <atom label="app_B5_App1/r0$0"/> </tuple>
+   <types> <type ID="652"/> <type ID="659"/> </types>
+</field>
+
+<sig label="app_B5_App2/r0" ID="660" parentID="661" one="yes">
+   <atom label="app_B5_App2/r0$0"/>
+</sig>
+
+<sig label="app_B5_App2/r" ID="661" parentID="659" abstract="yes">
+</sig>
+
+<sig label="app_B5_App1/r0" ID="662" parentID="663" one="yes">
+   <atom label="app_B5_App1/r0$0"/>
+</sig>
+
+<sig label="app_B5_App1/r" ID="663" parentID="659" abstract="yes">
+</sig>
+
+<sig label="base/Rule" ID="659" parentID="2" abstract="yes">
+</sig>
+
+<field label="triggers" ID="664" parentID="659">
+   <tuple> <atom label="app_B5_App2/r0$0"/> <atom label="app_B5_App2/r0_trig0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0$0"/> <atom label="app_B5_App1/r0_trig0$0"/> </tuple>
+   <types> <type ID="659"/> <type ID="665"/> </types>
+</field>
+
+<field label="conditions" ID="666" parentID="659">
+   <tuple> <atom label="app_B5_App2/r0$0"/> <atom label="app_B5_App2/r0_cond$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0$0"/> <atom label="app_B5_App1/r0_cond0$0"/> </tuple>
+   <types> <type ID="659"/> <type ID="667"/> </types>
+</field>
+
+<field label="commands" ID="668" parentID="659">
+   <tuple> <atom label="app_B5_App2/r0$0"/> <atom label="app_B5_App2/r0_comm0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0$0"/> <atom label="app_B5_App1/r0_comm0$0"/> </tuple>
+   <types> <type ID="659"/> <type ID="669"/> </types>
+</field>
+
+<field label="connected" ID="670" parentID="659">
+   <tuple> <atom label="app_B5_App2/r0$0"/> <atom label="app_B5_App2/r0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App2/r0$0"/> <atom label="app_B5_App1/r0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0$0"/> <atom label="app_B5_App2/r0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0$0"/> <atom label="app_B5_App1/r0$0"/> </tuple>
+   <types> <type ID="659"/> <type ID="659"/> </types>
+</field>
+
+<field label="siblings" ID="671" parentID="659">
+   <tuple> <atom label="app_B5_App2/r0$0"/> <atom label="app_B5_App2/r0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0$0"/> <atom label="app_B5_App1/r0$0"/> </tuple>
+   <types> <type ID="659"/> <type ID="659"/> </types>
+</field>
+
+<field label="indirect" ID="672" parentID="659">
+   <tuple> <atom label="app_B5_App2/r0$0"/> <atom label="app_B5_App2/r0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App2/r0$0"/> <atom label="app_B5_App1/r0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0$0"/> <atom label="app_B5_App2/r0$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0$0"/> <atom label="app_B5_App1/r0$0"/> </tuple>
+   <types> <type ID="659"/> <type ID="659"/> </types>
+</field>
+
+<field label="scheduled" ID="673" parentID="659">
+   <types> <type ID="659"/> <type ID="659"/> </types>
+</field>
+
+<sig label="app_B5_App2/r0_trig0" ID="674" parentID="675" one="yes">
+   <atom label="app_B5_App2/r0_trig0$0"/>
+</sig>
+
+<sig label="app_B5_App2/r0_trig" ID="675" parentID="665" abstract="yes">
+</sig>
+
+<sig label="app_B5_App1/r0_trig0" ID="676" parentID="677" one="yes">
+   <atom label="app_B5_App1/r0_trig0$0"/>
+</sig>
+
+<sig label="app_B5_App1/r0_trig" ID="677" parentID="665" abstract="yes">
+</sig>
+
+<sig label="base/Trigger" ID="665" parentID="2" abstract="yes">
+</sig>
+
+<field label="capabilities" ID="678" parentID="665">
+   <tuple> <atom label="app_B5_App2/r0_trig0$0"/> <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0_trig0$0"/> <atom label="cap_motionSensor/cap_motionSensor$0"/> </tuple>
+   <types> <type ID="665"/> <type ID="5"/> </types>
+</field>
+
+<field label="attribute" ID="679" parentID="665">
+   <tuple> <atom label="app_B5_App2/r0_trig0$0"/> <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0_trig0$0"/> <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/> </tuple>
+   <types> <type ID="665"/> <type ID="86"/> </types>
+</field>
+
+<field label="value" ID="680" parentID="665">
+   <types> <type ID="665"/> <type ID="282"/> </types>
+</field>
+
+<sig label="app_B5_App2/r0_cond" ID="681" parentID="667" abstract="yes">
+   <atom label="app_B5_App2/r0_cond$0"/>
+</sig>
+
+<sig label="app_B5_App1/r0_cond0" ID="682" parentID="683" one="yes">
+   <atom label="app_B5_App1/r0_cond0$0"/>
+</sig>
+
+<sig label="app_B5_App1/r0_cond" ID="683" parentID="667" abstract="yes">
+</sig>
+
+<sig label="base/Condition" ID="667" parentID="2" abstract="yes">
+</sig>
+
+<field label="capabilities" ID="684" parentID="667">
+   <tuple> <atom label="app_B5_App1/r0_cond0$0"/> <atom label="cap_motionSensor/cap_motionSensor$0"/> </tuple>
+   <tuple> <atom label="app_B5_App2/r0_cond$0"/> <atom label="cap_dryerMode/cap_dryerMode$0"/> </tuple>
+   <types> <type ID="667"/> <type ID="5"/> </types>
+</field>
+
+<field label="attribute" ID="685" parentID="667">
+   <tuple> <atom label="app_B5_App1/r0_cond0$0"/> <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/> </tuple>
+   <tuple> <atom label="app_B5_App2/r0_cond$0"/> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode$0"/> </tuple>
+   <types> <type ID="667"/> <type ID="86"/> </types>
+</field>
+
+<field label="value" ID="686" parentID="667">
+   <tuple> <atom label="app_B5_App1/r0_cond0$0"/> <atom label="cap_motionSensor/cap_motionSensor_attr_motion_val_active$0"/> </tuple>
+   <tuple> <atom label="app_B5_App2/r0_cond$0"/> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_regular$0"/> </tuple>
+   <tuple> <atom label="app_B5_App2/r0_cond$0"/> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_lowHeat$0"/> </tuple>
+   <tuple> <atom label="app_B5_App2/r0_cond$0"/> <atom label="cap_dryerMode/cap_dryerMode_attr_dryerMode_val_highHeat$0"/> </tuple>
+   <types> <type ID="667"/> <type ID="282"/> </types>
+</field>
+
+<sig label="app_B5_App2/r0_comm0" ID="687" parentID="688" one="yes">
+   <atom label="app_B5_App2/r0_comm0$0"/>
+</sig>
+
+<sig label="app_B5_App2/r0_comm" ID="688" parentID="669" abstract="yes">
+</sig>
+
+<sig label="app_B5_App1/r0_comm0" ID="689" parentID="690" one="yes">
+   <atom label="app_B5_App1/r0_comm0$0"/>
+</sig>
+
+<sig label="app_B5_App1/r0_comm" ID="690" parentID="669" abstract="yes">
+</sig>
+
+<sig label="base/Command" ID="669" parentID="2" abstract="yes">
+</sig>
+
+<field label="capability" ID="691" parentID="669">
+   <tuple> <atom label="app_B5_App2/r0_comm0$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0_comm0$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <types> <type ID="669"/> <type ID="5"/> </types>
+</field>
+
+<field label="attribute" ID="692" parentID="669">
+   <tuple> <atom label="app_B5_App2/r0_comm0$0"/> <atom label="cap_switch/cap_switch_attr_switch$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0_comm0$0"/> <atom label="cap_switch/cap_switch_attr_switch$0"/> </tuple>
+   <types> <type ID="669"/> <type ID="86"/> </types>
+</field>
+
+<field label="value" ID="693" parentID="669">
+   <tuple> <atom label="app_B5_App2/r0_comm0$0"/> <atom label="cap_switch/cap_switch_attr_switch_val_off$0"/> </tuple>
+   <tuple> <atom label="app_B5_App1/r0_comm0$0"/> <atom label="cap_switch/cap_switch_attr_switch_val_on$0"/> </tuple>
+   <types> <type ID="669"/> <type ID="282"/> </types>
+</field>
+
+<sig label="chan/ch_temperature" ID="694" parentID="695" one="yes">
+   <atom label="chan/ch_temperature$0"/>
+</sig>
+
+<sig label="chan/ch_luminance" ID="696" parentID="695" one="yes">
+   <atom label="chan/ch_luminance$0"/>
+</sig>
+
+<sig label="chan/ch_motion" ID="697" parentID="695" one="yes">
+   <atom label="chan/ch_motion$0"/>
+</sig>
+
+<sig label="chan/ch_humidity" ID="698" parentID="695" one="yes">
+   <atom label="chan/ch_humidity$0"/>
+</sig>
+
+<sig label="chan/ch_leakage" ID="699" parentID="695" one="yes">
+   <atom label="chan/ch_leakage$0"/>
+</sig>
+
+<sig label="chan/ch_location" ID="700" parentID="695" one="yes">
+   <atom label="chan/ch_location$0"/>
+</sig>
+
+<sig label="chan/ch_smoke" ID="701" parentID="695" one="yes">
+   <atom label="chan/ch_smoke$0"/>
+</sig>
+
+<sig label="chan/Channel" ID="695" parentID="2" abstract="yes">
+</sig>
+
+<field label="sensors" ID="702" parentID="695">
+   <tuple> <atom label="chan/ch_temperature$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_luminance$0"/> <atom label="cap_illuminanceMeasurement/cap_illuminanceMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_motion$0"/> <atom label="cap_contactSensor/cap_contactSensor$0"/> </tuple>
+   <tuple> <atom label="chan/ch_motion$0"/> <atom label="cap_motionSensor/cap_motionSensor$0"/> </tuple>
+   <tuple> <atom label="chan/ch_humidity$0"/> <atom label="cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_leakage$0"/> <atom label="cap_waterSensor/cap_waterSensor$0"/> </tuple>
+   <tuple> <atom label="chan/ch_location$0"/> <atom label="cap_presenceSensor/cap_presenceSensor$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="cap_carbonMonoxideDetector/cap_carbonMonoxideDetector$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="cap_smokeDetector/cap_smokeDetector$0"/> </tuple>
+   <types> <type ID="695"/> <type ID="5"/> </types>
+</field>
+
+<field label="actuators" ID="703" parentID="695">
+   <tuple> <atom label="chan/ch_temperature$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_temperature$0"/> <atom label="cap_thermostat/cap_thermostat$0"/> </tuple>
+   <tuple> <atom label="chan/ch_temperature$0"/> <atom label="cap_ovenMode/cap_ovenMode$0"/> </tuple>
+   <tuple> <atom label="chan/ch_luminance$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_luminance$0"/> <atom label="cap_switchLevel/cap_switchLevel$0"/> </tuple>
+   <tuple> <atom label="chan/ch_motion$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_humidity$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_leakage$0"/> <atom label="cap_valve/cap_valve$0"/> </tuple>
+   <tuple> <atom label="chan/ch_location$0"/> <atom label="cap_location/cap_location$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="cap_ovenMode/cap_ovenMode$0"/> </tuple>
+   <types> <type ID="695"/> <type ID="5"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$P__6_r" ID="704">
+   <tuple> <atom label="app_B5_App1/r0$0"/> </tuple>
+   <types> <type ID="659"/> </types>
+</skolem>
+
+<skolem label="$P__6_action" ID="705">
+   <tuple> <atom label="app_B5_App1/r0_comm0$0"/> </tuple>
+   <types> <type ID="669"/> </types>
+</skolem>
+
+<skolem label="$P__6_predecessor" ID="706">
+   <tuple> <atom label="app_B5_App1/r0$0"/> </tuple>
+   <types> <type ID="2"/> </types>
+</skolem>
+
+<skolem label="$P__6_action&apos;" ID="707">
+   <tuple> <atom label="app_B5_App1/r0_trig0$0"/> </tuple>
+   <types> <type ID="665"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

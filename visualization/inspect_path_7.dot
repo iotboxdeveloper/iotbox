@@ -1,0 +1,19 @@
+
+digraph Automata {
+rankdir=LR
+size="8,5"
+node [shape=doublecircle]
+CC5
+node [shape=circle]
+
+CC0 -> CC1 [label=cap_switch_attr_switch_null]
+
+CC1 -> CC2 [label=cap_switch_attr_switch_off]
+
+CC2 -> CC3 [label=cap_location_attr_mode_Home]
+
+CC3 -> CC4 [label=cap_location_attr_mode_null]
+
+CC4 -> CC5 [label=cap_lock_attr_lock_unlocked]
+
+}

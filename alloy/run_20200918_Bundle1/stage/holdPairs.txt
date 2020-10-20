@@ -1,0 +1,2 @@
+cap_switch_attr_switch,cap_switch_attr_switch_val_off,cap_presenceSensor_attr_presence,null
+cap_switch_attr_switch,cap_switch_attr_switch_val_on,cap_presenceSensor_attr_presence,null

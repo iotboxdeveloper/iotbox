@@ -1,0 +1,1 @@
+cap_switch_attr_switch,cap_switch_attr_switch_val_on,cap_motionSensor_attr_motion,null,cond:cap_motionSensor_attr_motion,cap_motionSensor_attr_motion_val_active

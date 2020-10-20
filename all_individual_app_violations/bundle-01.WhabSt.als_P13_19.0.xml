@@ -1,0 +1,935 @@
+<alloy builddate="2015-02-22 18:21 EST">
+
+<instance bitwidth="0" maxseq="0" command="Check P13" filename="">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement" ID="4" parentID="5" one="yes">
+   <atom label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement$0"/>
+</sig>
+
+<sig label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector" ID="6" parentID="5" one="yes">
+   <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector$0"/>
+</sig>
+
+<sig label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement" ID="7" parentID="5" one="yes">
+   <atom label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement$0"/>
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor" ID="8" parentID="5" one="yes">
+   <atom label="cap_contactSensor/cap_contactSensor$0"/>
+</sig>
+
+<sig label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement" ID="9" parentID="5" one="yes">
+   <atom label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement$0"/>
+</sig>
+
+<sig label="cap_location/cap_location" ID="10" parentID="5" one="yes">
+   <atom label="cap_location/cap_location$0"/>
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor" ID="11" parentID="5" one="yes">
+   <atom label="cap_motionSensor/cap_motionSensor$0"/>
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor" ID="12" parentID="5" one="yes">
+   <atom label="cap_presenceSensor/cap_presenceSensor$0"/>
+</sig>
+
+<sig label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement" ID="13" parentID="5" one="yes">
+   <atom label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector" ID="14" parentID="5" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector$0"/>
+</sig>
+
+<sig label="cap_switch/cap_switch" ID="15" parentID="5" one="yes">
+   <atom label="cap_switch/cap_switch$0"/>
+</sig>
+
+<sig label="chan/cap_switchLevel/cap_switchLevel" ID="16" parentID="5" one="yes">
+   <atom label="chan/cap_switchLevel/cap_switchLevel$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement" ID="17" parentID="5" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat" ID="18" parentID="5" one="yes">
+   <atom label="app_StatusThing/cap_thermostat/cap_thermostat$0"/>
+</sig>
+
+<sig label="chan/cap_valve/cap_valve" ID="19" parentID="5" one="yes">
+   <atom label="chan/cap_valve/cap_valve$0"/>
+</sig>
+
+<sig label="chan/cap_waterSensor/cap_waterSensor" ID="20" parentID="5" one="yes">
+   <atom label="chan/cap_waterSensor/cap_waterSensor$0"/>
+</sig>
+
+<sig label="chan/cap_ovenMode/cap_ovenMode" ID="21" parentID="5" one="yes">
+   <atom label="chan/cap_ovenMode/cap_ovenMode$0"/>
+</sig>
+
+<sig label="cap_runIn/cap_runIn" ID="22" parentID="5" abstract="yes">
+</sig>
+
+<sig label="cap_lock/cap_lock" ID="23" parentID="5" one="yes">
+   <atom label="cap_lock/cap_lock$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm" ID="24" parentID="5" one="yes">
+   <atom label="cap_alarm/cap_alarm$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl" ID="25" parentID="5" one="yes">
+   <atom label="cap_doorControl/cap_doorControl$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_now/cap_now" ID="26" parentID="5" one="yes">
+   <atom label="app_StatusThing/cap_now/cap_now$0"/>
+</sig>
+
+<sig label="base/Capability" ID="5" parentID="2" abstract="yes">
+</sig>
+
+<field label="attributes" ID="27" parentID="5">
+   <tuple> <atom label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement$0"/> <atom label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide$0"/> </tuple>
+   <tuple> <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector$0"/> <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/> </tuple>
+   <tuple> <atom label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement$0"/> <atom label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel$0"/> </tuple>
+   <tuple> <atom label="cap_contactSensor/cap_contactSensor$0"/> <atom label="cap_contactSensor/cap_contactSensor_attr_contact$0"/> </tuple>
+   <tuple> <atom label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement$0"/> <atom label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_mode$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_position$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_sunSet$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_sunRise$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_sunsetTime$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location$0"/> <atom label="cap_location/cap_location_attr_sunriseTime$0"/> </tuple>
+   <tuple> <atom label="cap_motionSensor/cap_motionSensor$0"/> <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/> </tuple>
+   <tuple> <atom label="cap_presenceSensor/cap_presenceSensor$0"/> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence$0"/> </tuple>
+   <tuple> <atom label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement$0"/> <atom label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity$0"/> </tuple>
+   <tuple> <atom label="cap_smokeDetector/cap_smokeDetector$0"/> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/> </tuple>
+   <tuple> <atom label="cap_switch/cap_switch$0"/> <atom label="cap_switch/cap_switch_attr_switch$0"/> </tuple>
+   <tuple> <atom label="chan/cap_switchLevel/cap_switchLevel$0"/> <atom label="chan/cap_switchLevel/cap_switchLevel_attr_level$0"/> </tuple>
+   <tuple> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/cap_thermostat/cap_thermostat$0"/> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/cap_thermostat/cap_thermostat$0"/> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState$0"/> </tuple>
+   <tuple> <atom label="chan/cap_valve/cap_valve$0"/> <atom label="chan/cap_valve/cap_valve_attr_valve$0"/> </tuple>
+   <tuple> <atom label="chan/cap_waterSensor/cap_waterSensor$0"/> <atom label="chan/cap_waterSensor/cap_waterSensor_attr_water$0"/> </tuple>
+   <tuple> <atom label="chan/cap_ovenMode/cap_ovenMode$0"/> <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/cap_now/cap_now$0"/> <atom label="app_StatusThing/cap_now/cap_now_attr_now$0"/> </tuple>
+   <types> <type ID="5"/> <type ID="28"/> </types>
+</field>
+
+<sig label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide" ID="29" parentID="30" one="yes">
+   <atom label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide$0"/>
+</sig>
+
+<sig label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr" ID="30" parentID="28" abstract="yes">
+</sig>
+
+<sig label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide" ID="31" parentID="32" one="yes">
+   <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/>
+</sig>
+
+<sig label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr" ID="32" parentID="28" abstract="yes">
+</sig>
+
+<sig label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel" ID="33" parentID="34" one="yes">
+   <atom label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel$0"/>
+</sig>
+
+<sig label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr" ID="34" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr_contact" ID="35" parentID="36" one="yes">
+   <atom label="cap_contactSensor/cap_contactSensor_attr_contact$0"/>
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr" ID="36" parentID="28" abstract="yes">
+</sig>
+
+<sig label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance" ID="37" parentID="38" one="yes">
+   <atom label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance$0"/>
+</sig>
+
+<sig label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr" ID="38" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode" ID="39" parentID="40" one="yes">
+   <atom label="cap_location/cap_location_attr_mode$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_position" ID="41" parentID="40" one="yes">
+   <atom label="cap_location/cap_location_attr_position$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunSet" ID="42" parentID="40" one="yes">
+   <atom label="cap_location/cap_location_attr_sunSet$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise" ID="43" parentID="40" one="yes">
+   <atom label="cap_location/cap_location_attr_sunRise$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunsetTime" ID="44" parentID="40" one="yes">
+   <atom label="cap_location/cap_location_attr_sunsetTime$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunriseTime" ID="45" parentID="40" one="yes">
+   <atom label="cap_location/cap_location_attr_sunriseTime$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr" ID="40" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr_motion" ID="46" parentID="47" one="yes">
+   <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/>
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr" ID="47" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr_presence" ID="48" parentID="49" one="yes">
+   <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence$0"/>
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr" ID="49" parentID="28" abstract="yes">
+</sig>
+
+<sig label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity" ID="50" parentID="51" one="yes">
+   <atom label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity$0"/>
+</sig>
+
+<sig label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr" ID="51" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke" ID="52" parentID="53" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr" ID="53" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_switch/cap_switch_attr_switch" ID="54" parentID="55" one="yes">
+   <atom label="cap_switch/cap_switch_attr_switch$0"/>
+</sig>
+
+<sig label="cap_switch/cap_switch_attr" ID="55" parentID="28" abstract="yes">
+</sig>
+
+<sig label="chan/cap_switchLevel/cap_switchLevel_attr_level" ID="56" parentID="57" one="yes">
+   <atom label="chan/cap_switchLevel/cap_switchLevel_attr_level$0"/>
+</sig>
+
+<sig label="chan/cap_switchLevel/cap_switchLevel_attr" ID="57" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature" ID="58" parentID="59" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr" ID="59" parentID="28" abstract="yes">
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat" ID="60" parentID="61" one="yes">
+   <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState" ID="62" parentID="61" one="yes">
+   <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat_attr" ID="61" parentID="28" abstract="yes">
+</sig>
+
+<sig label="chan/cap_valve/cap_valve_attr_valve" ID="63" parentID="64" one="yes">
+   <atom label="chan/cap_valve/cap_valve_attr_valve$0"/>
+</sig>
+
+<sig label="chan/cap_valve/cap_valve_attr" ID="64" parentID="28" abstract="yes">
+</sig>
+
+<sig label="chan/cap_waterSensor/cap_waterSensor_attr_water" ID="65" parentID="66" one="yes">
+   <atom label="chan/cap_waterSensor/cap_waterSensor_attr_water$0"/>
+</sig>
+
+<sig label="chan/cap_waterSensor/cap_waterSensor_attr" ID="66" parentID="28" abstract="yes">
+</sig>
+
+<sig label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode" ID="67" parentID="68" one="yes">
+   <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/>
+</sig>
+
+<sig label="chan/cap_ovenMode/cap_ovenMode_attr" ID="68" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr_runIn" ID="69" parentID="70" one="yes">
+   <atom label="cap_runIn/cap_runIn_attr_runIn$0"/>
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr" ID="70" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock" ID="71" parentID="72" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr" ID="72" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm" ID="73" parentID="74" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr" ID="74" parentID="28" abstract="yes">
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door" ID="75" parentID="76" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr" ID="76" parentID="28" abstract="yes">
+</sig>
+
+<sig label="app_StatusThing/cap_now/cap_now_attr_now" ID="77" parentID="78" one="yes">
+   <atom label="app_StatusThing/cap_now/cap_now_attr_now$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_now/cap_now_attr" ID="78" parentID="28" abstract="yes">
+</sig>
+
+<sig label="base/Attribute" ID="28" parentID="2" abstract="yes">
+</sig>
+
+<field label="values" ID="79" parentID="28">
+   <tuple> <atom label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide$0"/> <atom label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide_val0$0"/> </tuple>
+   <tuple> <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/> <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_clear$0"/> </tuple>
+   <tuple> <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/> <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_detected$0"/> </tuple>
+   <tuple> <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide$0"/> <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_tested$0"/> </tuple>
+   <tuple> <atom label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel$0"/> <atom label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel_val0$0"/> </tuple>
+   <tuple> <atom label="cap_contactSensor/cap_contactSensor_attr_contact$0"/> <atom label="cap_contactSensor/cap_contactSensor_attr_contact_val_closed$0"/> </tuple>
+   <tuple> <atom label="cap_contactSensor/cap_contactSensor_attr_contact$0"/> <atom label="cap_contactSensor/cap_contactSensor_attr_contact_val_open$0"/> </tuple>
+   <tuple> <atom label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance$0"/> <atom label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance_val0$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_mode$0"/> <atom label="cap_location/cap_location_attr_mode_val_Home$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_mode$0"/> <atom label="cap_location/cap_location_attr_mode_val_Away$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_mode$0"/> <atom label="cap_location/cap_location_attr_mode_val_Night$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_mode$0"/> <atom label="cap_location/cap_location_attr_mode_val_Vacation$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_sunSet$0"/> <atom label="cap_location/cap_location_attr_sunSet_val_ON$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_sunSet$0"/> <atom label="cap_location/cap_location_attr_sunSet_val_OFF$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_sunRise$0"/> <atom label="cap_location/cap_location_attr_sunRise_val0$0"/> </tuple>
+   <tuple> <atom label="cap_location/cap_location_attr_sunriseTime$0"/> <atom label="cap_location/cap_location_attr_sunriseTime_val0$0"/> </tuple>
+   <tuple> <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/> <atom label="cap_motionSensor/cap_motionSensor_attr_motion_val_active$0"/> </tuple>
+   <tuple> <atom label="cap_motionSensor/cap_motionSensor_attr_motion$0"/> <atom label="cap_motionSensor/cap_motionSensor_attr_motion_val_inactive$0"/> </tuple>
+   <tuple> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence$0"/> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_present$0"/> </tuple>
+   <tuple> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence$0"/> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_not_present$0"/> </tuple>
+   <tuple> <atom label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity$0"/> <atom label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity_val0$0"/> </tuple>
+   <tuple> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_clear$0"/> </tuple>
+   <tuple> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_detected$0"/> </tuple>
+   <tuple> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke$0"/> <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_tested$0"/> </tuple>
+   <tuple> <atom label="cap_switch/cap_switch_attr_switch$0"/> <atom label="cap_switch/cap_switch_attr_switch_val_on$0"/> </tuple>
+   <tuple> <atom label="cap_switch/cap_switch_attr_switch$0"/> <atom label="cap_switch/cap_switch_attr_switch_val_off$0"/> </tuple>
+   <tuple> <atom label="chan/cap_switchLevel/cap_switchLevel_attr_level$0"/> <atom label="chan/cap_switchLevel/cap_switchLevel_attr_level_val0$0"/> </tuple>
+   <tuple> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_low$0"/> </tuple>
+   <tuple> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_med$0"/> </tuple>
+   <tuple> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_high$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat$0"/> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat_val_setHeatingSetpoint$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat$0"/> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat_val_setCoolingSetpoint$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState$0"/> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_on$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState$0"/> <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_off$0"/> </tuple>
+   <tuple> <atom label="chan/cap_valve/cap_valve_attr_valve$0"/> <atom label="chan/cap_valve/cap_valve_attr_valve_val_closed$0"/> </tuple>
+   <tuple> <atom label="chan/cap_valve/cap_valve_attr_valve$0"/> <atom label="chan/cap_valve/cap_valve_attr_valve_val_open$0"/> </tuple>
+   <tuple> <atom label="chan/cap_waterSensor/cap_waterSensor_attr_water$0"/> <atom label="chan/cap_waterSensor/cap_waterSensor_attr_water_val_dry$0"/> </tuple>
+   <tuple> <atom label="chan/cap_waterSensor/cap_waterSensor_attr_water$0"/> <atom label="chan/cap_waterSensor/cap_waterSensor_attr_water_val_wet$0"/> </tuple>
+   <tuple> <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_heating$0"/> </tuple>
+   <tuple> <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_grill$0"/> </tuple>
+   <tuple> <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_warming$0"/> </tuple>
+   <tuple> <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode$0"/> <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_defrosting$0"/> </tuple>
+   <tuple> <atom label="cap_runIn/cap_runIn_attr_runIn$0"/> <atom label="cap_runIn/cap_runIn_attr_runIn_val_on$0"/> </tuple>
+   <tuple> <atom label="cap_runIn/cap_runIn_attr_runIn$0"/> <atom label="cap_runIn/cap_runIn_attr_runIn_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_locked$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_unknown$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_unlocked$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_unlock$0"/> </tuple>
+   <tuple> <atom label="cap_lock/cap_lock_attr_lock$0"/> <atom label="cap_lock/cap_lock_attr_lock_val_unlocked_with_timeout$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_both$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_off$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_siren$0"/> </tuple>
+   <tuple> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_strobe$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_closed$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_closing$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_open$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_opening$0"/> </tuple>
+   <tuple> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_unknown$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/cap_now/cap_now_attr_now$0"/> <atom label="app_StatusThing/cap_now/cap_now_attr_now_val0$0"/> </tuple>
+   <types> <type ID="28"/> <type ID="80"/> </types>
+</field>
+
+<sig label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide_val0" ID="81" parentID="82" one="yes">
+   <atom label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide_val0$0"/>
+</sig>
+
+<sig label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement_attr_carbonDioxide_val" ID="82" parentID="80" abstract="yes">
+</sig>
+
+<sig label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_clear" ID="83" parentID="84" one="yes">
+   <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_clear$0"/>
+</sig>
+
+<sig label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_detected" ID="85" parentID="84" one="yes">
+   <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_detected$0"/>
+</sig>
+
+<sig label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_tested" ID="86" parentID="84" one="yes">
+   <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val_tested$0"/>
+</sig>
+
+<sig label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector_attr_carbonMonoxide_val" ID="84" parentID="80" abstract="yes">
+</sig>
+
+<sig label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel_val0" ID="87" parentID="88" one="yes">
+   <atom label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel_val0$0"/>
+</sig>
+
+<sig label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement_attr_carbonMonoxideLevel_val" ID="88" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr_contact_val_closed" ID="89" parentID="90" one="yes">
+   <atom label="cap_contactSensor/cap_contactSensor_attr_contact_val_closed$0"/>
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr_contact_val_open" ID="91" parentID="90" one="yes">
+   <atom label="cap_contactSensor/cap_contactSensor_attr_contact_val_open$0"/>
+</sig>
+
+<sig label="cap_contactSensor/cap_contactSensor_attr_contact_val" ID="90" parentID="80" abstract="yes">
+</sig>
+
+<sig label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance_val0" ID="92" parentID="93" one="yes">
+   <atom label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance_val0$0"/>
+</sig>
+
+<sig label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement_attr_illuminance_val" ID="93" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val_Home" ID="94" parentID="95" one="yes">
+   <atom label="cap_location/cap_location_attr_mode_val_Home$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val_Away" ID="96" parentID="95" one="yes">
+   <atom label="cap_location/cap_location_attr_mode_val_Away$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val_Night" ID="97" parentID="95" one="yes">
+   <atom label="cap_location/cap_location_attr_mode_val_Night$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val_Vacation" ID="98" parentID="95" one="yes">
+   <atom label="cap_location/cap_location_attr_mode_val_Vacation$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_mode_val" ID="95" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_position_val" ID="99" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunSet_val_ON" ID="100" parentID="101" one="yes">
+   <atom label="cap_location/cap_location_attr_sunSet_val_ON$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunSet_val_OFF" ID="102" parentID="101" one="yes">
+   <atom label="cap_location/cap_location_attr_sunSet_val_OFF$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunSet_val" ID="101" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise_val0" ID="103" parentID="104" one="yes">
+   <atom label="cap_location/cap_location_attr_sunRise_val0$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise_val_ON" ID="105" parentID="104" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise_val_OFF" ID="106" parentID="104" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunRise_val" ID="104" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunsetTime_val" ID="107" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunriseTime_val0" ID="108" parentID="109" one="yes">
+   <atom label="cap_location/cap_location_attr_sunriseTime_val0$0"/>
+</sig>
+
+<sig label="cap_location/cap_location_attr_sunriseTime_val" ID="109" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr_motion_val_active" ID="110" parentID="111" one="yes">
+   <atom label="cap_motionSensor/cap_motionSensor_attr_motion_val_active$0"/>
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr_motion_val_inactive" ID="112" parentID="111" one="yes">
+   <atom label="cap_motionSensor/cap_motionSensor_attr_motion_val_inactive$0"/>
+</sig>
+
+<sig label="cap_motionSensor/cap_motionSensor_attr_motion_val" ID="111" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_present" ID="113" parentID="114" one="yes">
+   <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_present$0"/>
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_not_present" ID="115" parentID="114" one="yes">
+   <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_not_present$0"/>
+</sig>
+
+<sig label="cap_presenceSensor/cap_presenceSensor_attr_presence_val" ID="114" parentID="80" abstract="yes">
+</sig>
+
+<sig label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity_val0" ID="116" parentID="117" one="yes">
+   <atom label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity_val0$0"/>
+</sig>
+
+<sig label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement_attr_humidity_val" ID="117" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_clear" ID="118" parentID="119" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_clear$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_detected" ID="120" parentID="119" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_detected$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_tested" ID="121" parentID="119" one="yes">
+   <atom label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val_tested$0"/>
+</sig>
+
+<sig label="cap_smokeDetector/cap_smokeDetector_attr_smoke_val" ID="119" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_switch/cap_switch_attr_switch_val_on" ID="122" parentID="123" one="yes">
+   <atom label="cap_switch/cap_switch_attr_switch_val_on$0"/>
+</sig>
+
+<sig label="cap_switch/cap_switch_attr_switch_val_off" ID="124" parentID="123" one="yes">
+   <atom label="cap_switch/cap_switch_attr_switch_val_off$0"/>
+</sig>
+
+<sig label="cap_switch/cap_switch_attr_switch_val" ID="123" parentID="80" abstract="yes">
+</sig>
+
+<sig label="chan/cap_switchLevel/cap_switchLevel_attr_level_val0" ID="125" parentID="126" one="yes">
+   <atom label="chan/cap_switchLevel/cap_switchLevel_attr_level_val0$0"/>
+</sig>
+
+<sig label="chan/cap_switchLevel/cap_switchLevel_attr_level_val" ID="126" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_low" ID="127" parentID="128" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_low$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_med" ID="129" parentID="128" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_med$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_high" ID="130" parentID="128" one="yes">
+   <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val_high$0"/>
+</sig>
+
+<sig label="cap_temperatureMeasurement/cap_temperatureMeasurement_attr_temperature_val" ID="128" parentID="80" abstract="yes">
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat_val_setHeatingSetpoint" ID="131" parentID="132" one="yes">
+   <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat_val_setHeatingSetpoint$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat_val_setCoolingSetpoint" ID="133" parentID="132" one="yes">
+   <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat_val_setCoolingSetpoint$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostat_val" ID="132" parentID="80" abstract="yes">
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_on" ID="134" parentID="135" one="yes">
+   <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_on$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_off" ID="136" parentID="135" one="yes">
+   <atom label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val_off$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_thermostat/cap_thermostat_attr_thermostatOperatingState_val" ID="135" parentID="80" abstract="yes">
+</sig>
+
+<sig label="chan/cap_valve/cap_valve_attr_valve_val_closed" ID="137" parentID="138" one="yes">
+   <atom label="chan/cap_valve/cap_valve_attr_valve_val_closed$0"/>
+</sig>
+
+<sig label="chan/cap_valve/cap_valve_attr_valve_val_open" ID="139" parentID="138" one="yes">
+   <atom label="chan/cap_valve/cap_valve_attr_valve_val_open$0"/>
+</sig>
+
+<sig label="chan/cap_valve/cap_valve_attr_valve_val" ID="138" parentID="80" abstract="yes">
+</sig>
+
+<sig label="chan/cap_waterSensor/cap_waterSensor_attr_water_val_dry" ID="140" parentID="141" one="yes">
+   <atom label="chan/cap_waterSensor/cap_waterSensor_attr_water_val_dry$0"/>
+</sig>
+
+<sig label="chan/cap_waterSensor/cap_waterSensor_attr_water_val_wet" ID="142" parentID="141" one="yes">
+   <atom label="chan/cap_waterSensor/cap_waterSensor_attr_water_val_wet$0"/>
+</sig>
+
+<sig label="chan/cap_waterSensor/cap_waterSensor_attr_water_val" ID="141" parentID="80" abstract="yes">
+</sig>
+
+<sig label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_heating" ID="143" parentID="144" one="yes">
+   <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_heating$0"/>
+</sig>
+
+<sig label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_grill" ID="145" parentID="144" one="yes">
+   <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_grill$0"/>
+</sig>
+
+<sig label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_warming" ID="146" parentID="144" one="yes">
+   <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_warming$0"/>
+</sig>
+
+<sig label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_defrosting" ID="147" parentID="144" one="yes">
+   <atom label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val_defrosting$0"/>
+</sig>
+
+<sig label="chan/cap_ovenMode/cap_ovenMode_attr_ovenMode_val" ID="144" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr_runIn_val_on" ID="148" parentID="149" one="yes">
+   <atom label="cap_runIn/cap_runIn_attr_runIn_val_on$0"/>
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr_runIn_val_off" ID="150" parentID="149" one="yes">
+   <atom label="cap_runIn/cap_runIn_attr_runIn_val_off$0"/>
+</sig>
+
+<sig label="cap_runIn/cap_runIn_attr_val" ID="149" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_locked" ID="151" parentID="152" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_locked$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_unknown" ID="153" parentID="152" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_unknown$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_unlocked" ID="154" parentID="152" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_unlocked$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_unlock" ID="155" parentID="152" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_unlock$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val_unlocked_with_timeout" ID="156" parentID="152" one="yes">
+   <atom label="cap_lock/cap_lock_attr_lock_val_unlocked_with_timeout$0"/>
+</sig>
+
+<sig label="cap_lock/cap_lock_attr_lock_val" ID="152" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val_both" ID="157" parentID="158" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm_val_both$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val_off" ID="159" parentID="158" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm_val_off$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val_siren" ID="160" parentID="158" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm_val_siren$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val_strobe" ID="161" parentID="158" one="yes">
+   <atom label="cap_alarm/cap_alarm_attr_alarm_val_strobe$0"/>
+</sig>
+
+<sig label="cap_alarm/cap_alarm_attr_alarm_val" ID="158" parentID="80" abstract="yes">
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_closed" ID="162" parentID="163" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_closed$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_closing" ID="164" parentID="163" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_closing$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_open" ID="165" parentID="163" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_open$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_opening" ID="166" parentID="163" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_opening$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val_unknown" ID="167" parentID="163" one="yes">
+   <atom label="cap_doorControl/cap_doorControl_attr_door_val_unknown$0"/>
+</sig>
+
+<sig label="cap_doorControl/cap_doorControl_attr_door_val" ID="163" parentID="80" abstract="yes">
+</sig>
+
+<sig label="app_StatusThing/cap_now/cap_now_attr_now_val0" ID="168" parentID="169" one="yes">
+   <atom label="app_StatusThing/cap_now/cap_now_attr_now_val0$0"/>
+</sig>
+
+<sig label="app_StatusThing/cap_now/cap_now_attr_now_val" ID="169" parentID="80" abstract="yes">
+</sig>
+
+<sig label="base/AttrValue" ID="80" parentID="2" abstract="yes">
+</sig>
+
+<sig label="app_StatusThing/app_StatusThing" ID="170" parentID="171" one="yes">
+   <atom label="app_StatusThing/app_StatusThing$0"/>
+</sig>
+
+<field label="switches" ID="172" parentID="170">
+   <types> <type ID="171"/> <type ID="15"/> </types>
+</field>
+
+<field label="temperatures" ID="173" parentID="170">
+   <tuple> <atom label="app_StatusThing/app_StatusThing$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement$0"/> </tuple>
+   <types> <type ID="171"/> <type ID="17"/> </types>
+</field>
+
+<field label="thermostats" ID="174" parentID="170">
+   <tuple> <atom label="app_StatusThing/app_StatusThing$0"/> <atom label="app_StatusThing/cap_thermostat/cap_thermostat$0"/> </tuple>
+   <types> <type ID="171"/> <type ID="18"/> </types>
+</field>
+
+<sig label="base/IoTApp" ID="171" parentID="2" abstract="yes">
+</sig>
+
+<field label="rules" ID="175" parentID="171">
+   <tuple> <atom label="app_StatusThing/app_StatusThing$0"/> <atom label="app_StatusThing/r$0"/> </tuple>
+   <types> <type ID="171"/> <type ID="176"/> </types>
+</field>
+
+<sig label="app_StatusThing/r" ID="177" parentID="176" abstract="yes">
+   <atom label="app_StatusThing/r$0"/>
+</sig>
+
+<sig label="base/Rule" ID="176" parentID="2" abstract="yes">
+</sig>
+
+<field label="triggers" ID="178" parentID="176">
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="base/Trigger$0"/> </tuple>
+   <types> <type ID="176"/> <type ID="179"/> </types>
+</field>
+
+<field label="conditions" ID="180" parentID="176">
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="base/Condition$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="base/Condition$1"/> </tuple>
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="base/Condition$2"/> </tuple>
+   <types> <type ID="176"/> <type ID="181"/> </types>
+</field>
+
+<field label="commands" ID="182" parentID="176">
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="base/Command$0"/> </tuple>
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="base/Command$1"/> </tuple>
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="base/Command$2"/> </tuple>
+   <types> <type ID="176"/> <type ID="183"/> </types>
+</field>
+
+<field label="connected" ID="184" parentID="176">
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="app_StatusThing/r$0"/> </tuple>
+   <types> <type ID="176"/> <type ID="176"/> </types>
+</field>
+
+<field label="siblings" ID="185" parentID="176">
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="app_StatusThing/r$0"/> </tuple>
+   <types> <type ID="176"/> <type ID="176"/> </types>
+</field>
+
+<field label="indirect" ID="186" parentID="176">
+   <tuple> <atom label="app_StatusThing/r$0"/> <atom label="app_StatusThing/r$0"/> </tuple>
+   <types> <type ID="176"/> <type ID="176"/> </types>
+</field>
+
+<field label="scheduled" ID="187" parentID="176">
+   <types> <type ID="176"/> <type ID="176"/> </types>
+</field>
+
+<sig label="base/Trigger" ID="179" parentID="2" abstract="yes">
+   <atom label="base/Trigger$0"/>
+</sig>
+
+<field label="capabilities" ID="188" parentID="179">
+   <tuple> <atom label="base/Trigger$0"/> <atom label="cap_presenceSensor/cap_presenceSensor$0"/> </tuple>
+   <types> <type ID="179"/> <type ID="5"/> </types>
+</field>
+
+<field label="attribute" ID="189" parentID="179">
+   <tuple> <atom label="base/Trigger$0"/> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence$0"/> </tuple>
+   <types> <type ID="179"/> <type ID="28"/> </types>
+</field>
+
+<field label="value" ID="190" parentID="179">
+   <tuple> <atom label="base/Trigger$0"/> <atom label="cap_presenceSensor/cap_presenceSensor_attr_presence_val_not_present$0"/> </tuple>
+   <types> <type ID="179"/> <type ID="80"/> </types>
+</field>
+
+<sig label="base/Condition" ID="181" parentID="2" abstract="yes">
+   <atom label="base/Condition$0"/>
+   <atom label="base/Condition$1"/>
+   <atom label="base/Condition$2"/>
+</sig>
+
+<field label="capabilities" ID="191" parentID="181">
+   <tuple> <atom label="base/Condition$0"/> <atom label="app_StatusThing/cap_now/cap_now$0"/> </tuple>
+   <tuple> <atom label="base/Condition$1"/> <atom label="cap_doorControl/cap_doorControl$0"/> </tuple>
+   <tuple> <atom label="base/Condition$2"/> <atom label="cap_alarm/cap_alarm$0"/> </tuple>
+   <types> <type ID="181"/> <type ID="5"/> </types>
+</field>
+
+<field label="attribute" ID="192" parentID="181">
+   <tuple> <atom label="base/Condition$0"/> <atom label="app_StatusThing/cap_now/cap_now_attr_now$0"/> </tuple>
+   <tuple> <atom label="base/Condition$1"/> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> </tuple>
+   <tuple> <atom label="base/Condition$2"/> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> </tuple>
+   <types> <type ID="181"/> <type ID="28"/> </types>
+</field>
+
+<field label="value" ID="193" parentID="181">
+   <tuple> <atom label="base/Condition$0"/> <atom label="app_StatusThing/cap_now/cap_now_attr_now_val0$0"/> </tuple>
+   <tuple> <atom label="base/Condition$1"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_closed$0"/> </tuple>
+   <tuple> <atom label="base/Condition$1"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_closing$0"/> </tuple>
+   <tuple> <atom label="base/Condition$1"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_open$0"/> </tuple>
+   <tuple> <atom label="base/Condition$1"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_opening$0"/> </tuple>
+   <tuple> <atom label="base/Condition$1"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_unknown$0"/> </tuple>
+   <tuple> <atom label="base/Condition$2"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_both$0"/> </tuple>
+   <tuple> <atom label="base/Condition$2"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_off$0"/> </tuple>
+   <tuple> <atom label="base/Condition$2"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_siren$0"/> </tuple>
+   <tuple> <atom label="base/Condition$2"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_strobe$0"/> </tuple>
+   <types> <type ID="181"/> <type ID="80"/> </types>
+</field>
+
+<sig label="base/Command" ID="183" parentID="2" abstract="yes">
+   <atom label="base/Command$0"/>
+   <atom label="base/Command$1"/>
+   <atom label="base/Command$2"/>
+</sig>
+
+<field label="capability" ID="194" parentID="183">
+   <tuple> <atom label="base/Command$0"/> <atom label="cap_doorControl/cap_doorControl$0"/> </tuple>
+   <tuple> <atom label="base/Command$1"/> <atom label="cap_alarm/cap_alarm$0"/> </tuple>
+   <tuple> <atom label="base/Command$2"/> <atom label="cap_location/cap_location$0"/> </tuple>
+   <types> <type ID="183"/> <type ID="5"/> </types>
+</field>
+
+<field label="attribute" ID="195" parentID="183">
+   <tuple> <atom label="base/Command$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door$0"/> </tuple>
+   <tuple> <atom label="base/Command$1"/> <atom label="cap_alarm/cap_alarm_attr_alarm$0"/> </tuple>
+   <tuple> <atom label="base/Command$2"/> <atom label="cap_location/cap_location_attr_mode$0"/> </tuple>
+   <types> <type ID="183"/> <type ID="28"/> </types>
+</field>
+
+<field label="value" ID="196" parentID="183">
+   <tuple> <atom label="base/Command$0"/> <atom label="cap_doorControl/cap_doorControl_attr_door_val_unknown$0"/> </tuple>
+   <tuple> <atom label="base/Command$1"/> <atom label="cap_alarm/cap_alarm_attr_alarm_val_both$0"/> </tuple>
+   <tuple> <atom label="base/Command$2"/> <atom label="cap_location/cap_location_attr_mode_val_Home$0"/> </tuple>
+   <types> <type ID="183"/> <type ID="80"/> </types>
+</field>
+
+<sig label="chan/ch_temperature" ID="197" parentID="198" one="yes">
+   <atom label="chan/ch_temperature$0"/>
+</sig>
+
+<sig label="chan/ch_luminance" ID="199" parentID="198" one="yes">
+   <atom label="chan/ch_luminance$0"/>
+</sig>
+
+<sig label="chan/ch_motion" ID="200" parentID="198" one="yes">
+   <atom label="chan/ch_motion$0"/>
+</sig>
+
+<sig label="chan/ch_humidity" ID="201" parentID="198" one="yes">
+   <atom label="chan/ch_humidity$0"/>
+</sig>
+
+<sig label="chan/ch_leakage" ID="202" parentID="198" one="yes">
+   <atom label="chan/ch_leakage$0"/>
+</sig>
+
+<sig label="chan/ch_location" ID="203" parentID="198" one="yes">
+   <atom label="chan/ch_location$0"/>
+</sig>
+
+<sig label="chan/ch_smoke" ID="204" parentID="198" one="yes">
+   <atom label="chan/ch_smoke$0"/>
+</sig>
+
+<sig label="chan/Channel" ID="198" parentID="2" abstract="yes">
+</sig>
+
+<field label="sensors" ID="205" parentID="198">
+   <tuple> <atom label="chan/ch_temperature$0"/> <atom label="cap_temperatureMeasurement/cap_temperatureMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_luminance$0"/> <atom label="chan/cap_illuminanceMeasurement/cap_illuminanceMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_motion$0"/> <atom label="cap_contactSensor/cap_contactSensor$0"/> </tuple>
+   <tuple> <atom label="chan/ch_motion$0"/> <atom label="cap_motionSensor/cap_motionSensor$0"/> </tuple>
+   <tuple> <atom label="chan/ch_humidity$0"/> <atom label="chan/cap_relativeHumidityMeasurement/cap_relativeHumidityMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_leakage$0"/> <atom label="chan/cap_waterSensor/cap_waterSensor$0"/> </tuple>
+   <tuple> <atom label="chan/ch_location$0"/> <atom label="cap_presenceSensor/cap_presenceSensor$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="chan/cap_carbonDioxideMeasurement/cap_carbonDioxideMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="chan/cap_carbonMonoxideDetector/cap_carbonMonoxideDetector$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="chan/cap_carbonMonoxideMeasurement/cap_carbonMonoxideMeasurement$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="cap_smokeDetector/cap_smokeDetector$0"/> </tuple>
+   <types> <type ID="198"/> <type ID="5"/> </types>
+</field>
+
+<field label="actuators" ID="206" parentID="198">
+   <tuple> <atom label="chan/ch_temperature$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_temperature$0"/> <atom label="app_StatusThing/cap_thermostat/cap_thermostat$0"/> </tuple>
+   <tuple> <atom label="chan/ch_temperature$0"/> <atom label="chan/cap_ovenMode/cap_ovenMode$0"/> </tuple>
+   <tuple> <atom label="chan/ch_luminance$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_luminance$0"/> <atom label="chan/cap_switchLevel/cap_switchLevel$0"/> </tuple>
+   <tuple> <atom label="chan/ch_motion$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_humidity$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_leakage$0"/> <atom label="chan/cap_valve/cap_valve$0"/> </tuple>
+   <tuple> <atom label="chan/ch_location$0"/> <atom label="cap_location/cap_location$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="cap_switch/cap_switch$0"/> </tuple>
+   <tuple> <atom label="chan/ch_smoke$0"/> <atom label="chan/cap_ovenMode/cap_ovenMode$0"/> </tuple>
+   <types> <type ID="198"/> <type ID="5"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$P13_r" ID="207">
+   <tuple> <atom label="app_StatusThing/r$0"/> </tuple>
+   <types> <type ID="176"/> </types>
+</skolem>
+
+<skolem label="$P13_action" ID="208">
+   <tuple> <atom label="base/Command$2"/> </tuple>
+   <types> <type ID="183"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

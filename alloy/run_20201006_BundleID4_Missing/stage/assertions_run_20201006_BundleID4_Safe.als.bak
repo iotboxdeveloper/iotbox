@@ -1,0 +1,324 @@
+module assertions
+open IoTBottomUp as base
+open IoTChannel as chan
+open cap_fanSpeed
+open cap_robotCleanerMovement
+open cap_momentary
+open cap_button
+open cap_runIn
+open cap_motionSensor
+open cap_powerMeter
+open cap_switchLevel
+open cap_ovenMode
+open cap_presenceSensor
+open cap_mediaInputSource
+open cap_powerSource
+open cap_userInput
+open cap_dishwasherMode
+open cap_rapidCooling
+open cap_ovenSetpoint
+open cap_switch
+open cap_alarm
+open cap_location
+open cap_thermostatCoolingSetpoint
+open cap_valve
+open cap_infraredLevel
+open cap_odorSensor
+open cap_mediaPlaybackShuffle
+open cap_now
+open cap_contactSensor
+open cap_battery
+open cap_temperatureMeasurement
+open cap_audioVolume
+open cap_waterSensor
+open cap_thermostatHeatingSetpoint
+open cap_lock
+open cap_soundSensor
+open cap_filterStatus
+open cap_energyMeter
+open cap_mediaPlaybackRepeat
+open cap_illuminanceMeasurement
+open cap_robotCleanerCleaningMode
+open cap_tvChannel
+open cap_accelerationSensor
+open cap_signalStrength
+open cap_dustSensor
+open cap_robotCleanerTurboMode
+open cap_app
+open cap_carbonMonoxideDetector
+open cap_formaldehydeMeasurement
+open cap_voltageMeasurement
+open cap_carbonDioxideMeasurement
+open cap_airQualitySensor
+open cap_washerOperatingState
+open cap_carbonMonoxideMeasurement
+open cap_relativeHumidityMeasurement
+open cap_refrigerationSetpoint
+open cap_equivalentCarbonDioxideMeasurement
+open cap_tamperAlert
+open cap_ultravioletIndex
+open cap_tone
+open cap_colorTemperature
+open cap_windowShade
+open cap_thermostatMode
+open cap_threeAxis
+open cap_imageCapture
+open cap_thermostatOperatingState
+open cap_thermostat
+open cap_colorControl
+open cap_dryerOperatingState
+open cap_thermostatFanMode
+open cap_thermostatSetpoint
+open cap_musicPlayer
+open cap_mediaPlayback
+open cap_airConditionerMode
+open cap_garageDoorControl
+open cap_doorControl
+open cap_audioMute
+open cap_dishwasherOperatingState
+open cap_ovenOperatingState
+open cap_washerMode
+open cap_dryerMode
+open cap_smokeDetector
+open cap_activityLightingMode
+open app_ModeChangebasedonswitch
+open app_ID4PowerAllowance_Safe
+open app_OpeningDoorTogglesSwitch
+
+    pred connected_runIn[r,r' : Rule] {
+      no r'.triggers
+      some comm : r.commands, cond : r'.conditions {
+        (cond.attribute  = cap_runIn_attr_runIn)
+        (cond.value      = cap_runIn_attr_runIn_val_on)
+        (comm.capability = cond.capabilities)
+        (comm.attribute  = cond.attribute)
+        (comm.value      = cond.value)
+      }
+    }
+    
+    pred connected_caps[comm : Command, trig : Trigger] {
+      (some comm.capability & trig.capabilities)
+      (comm.attribute = trig.attribute)
+      (comm.value in trig.value) or (no trig.value)
+    }
+    
+    pred connected_chan[comm : Command, trig : Trigger] {
+      some c : Channel {
+        some (comm.capability   & c.actuators)
+        some (trig.capabilities & c.sensors)
+      }
+    }
+    
+    pred are_indirect[r,r' : Rule] {
+      are_connected[r,r']
+      no comm : r.commands, trig : r'.triggers {
+        connected_caps[comm, trig]
+      }
+    }
+    
+    pred are_connected[r,r' : Rule] {
+      (some comm : r.commands, trig : r'.triggers {
+        connected_caps[comm, trig] or connected_chan[comm, trig]
+      }) or (connected_runIn[r,r'])
+      all comm : r.commands, cond : r'.conditions {
+        ((some comm.capability & cond.capabilities) and (comm.attribute = cond.attribute)) => {
+          (comm.value in cond.value)
+        }
+      }
+    }
+    
+    pred are_siblings[r,r' : Rule] {
+      (no r.triggers) or (no r'.triggers) or (some t : r.triggers, t' : r'.triggers {
+        (t.attribute = t'.attribute)
+        (some t.value & t'.value) or (no t.value) or (no t'.value)
+      })
+      all c : r.conditions, c' : r'.conditions {
+        ((some c.capabilities & c'.capabilities) and (c.attribute = c'.attribute))
+          => (some c.value & c'.value)
+      }
+    }
+    
+    fact {
+      all r,r' : Rule {
+        (r' in r.connected) <=> are_connected[r,r']
+        (r' in r.siblings)  <=> are_siblings[r,r']
+        (r' in r.indirect)  <=> are_indirect[r,r']
+        (r' in r.scheduled) <=> connected_runIn[r,r']
+      }
+    }
+    
+    
+assert P__0 {
+  // there is no situation where C occurs (e.g. the switch is automatically off)
+  no r : IoTApp.rules, action : r.commands {
+    action.attribute = cap_location_attr_mode
+    action.value     = cap_location_attr_mode_val_mode2
+    (some predecessor : r.*(~connected), action' : predecessor.triggers, cond: predecessor.conditions {
+    // caused by some path of events
+    // that does not have X (e.g. NIGHT mode)
+    // e.g. check that all events on the paths e.g. is an event that is not NIGHT mode, and is not preceded by NIGHT mode
+        not {
+        (
+        {
+            action'.attribute = cap_location_attr_mode
+            (no action'.value)
+            
+        }
+        ) 
+        or
+        (
+            some predecessor' : predecessor.*(~connected), action'' : predecessor'.triggers, cond'' : predecessor'.conditions {
+                predecessor != r
+                action''.attribute = cap_location_attr_mode
+                (no action''.value) 
+                
+            }
+        )
+        // P__0_insert_more_here
+        }
+    }) 
+  }
+}
+check P__0
+// P__0:cap_location_attr_mode,cap_location_attr_mode_val_mode2,cap_location_attr_mode,null
+// P__0_insert_metadata_here
+
+assert P__1 {
+  // there is no situation where C occurs (e.g. the switch is automatically off)
+  no r : IoTApp.rules, action : r.commands {
+    action.attribute = cap_location_attr_mode
+    action.value     = cap_location_attr_mode_val_mode4
+    (some predecessor : r.*(~connected), action' : predecessor.triggers, cond: predecessor.conditions {
+    // caused by some path of events
+    // that does not have X (e.g. NIGHT mode)
+    // e.g. check that all events on the paths e.g. is an event that is not NIGHT mode, and is not preceded by NIGHT mode
+        not {
+        (
+        {
+            action'.attribute = cap_switch_attr_switch
+            (no action'.value and cond.attribute = action'.attribute and cond.value = cap_switch_attr_switch_val_off) or action'.value     = cap_switch_attr_switch_val_off
+            
+        }
+        ) 
+        or
+        (
+            some predecessor' : predecessor.*(~connected), action'' : predecessor'.triggers, cond'' : predecessor'.conditions {
+                predecessor != r
+                action''.attribute = cap_switch_attr_switch
+                (no action''.value and cond''.attribute = action''.attribute and cond''.value = cap_switch_attr_switch_val_off) or action''.value     = cap_switch_attr_switch_val_off
+                
+            }
+        )
+        // P__1_insert_more_here
+        }
+    }) 
+  }
+}
+check P__1
+// P__1:cap_location_attr_mode,cap_location_attr_mode_val_mode4,cap_switch_attr_switch,cap_switch_attr_switch_val_off
+// P__1_insert_metadata_here
+
+assert P__2 {
+  // there is no situation where C occurs (e.g. the switch is automatically off)
+  no r : IoTApp.rules, action : r.commands {
+    action.attribute = cap_switch_attr_switch
+    action.value     = cap_switch_attr_switch_val_on
+    (some predecessor : r.*(~connected), action' : predecessor.triggers, cond: predecessor.conditions {
+    // caused by some path of events
+    // that does not have X (e.g. NIGHT mode)
+    // e.g. check that all events on the paths e.g. is an event that is not NIGHT mode, and is not preceded by NIGHT mode
+        not {
+        (
+        {
+            action'.attribute = cap_switch_attr_switch
+            (no action'.value and cond.attribute = action'.attribute and cond.value = cap_switch_attr_switch_val_off) or action'.value     = cap_switch_attr_switch_val_off
+            
+        }
+        ) 
+        or
+        (
+            some predecessor' : predecessor.*(~connected), action'' : predecessor'.triggers, cond'' : predecessor'.conditions {
+                predecessor != r
+                action''.attribute = cap_switch_attr_switch
+                (no action''.value and cond''.attribute = action''.attribute and cond''.value = cap_switch_attr_switch_val_off) or action''.value     = cap_switch_attr_switch_val_off
+                
+            }
+        )
+        // P__2_insert_more_here
+        }
+    }) 
+  }
+}
+check P__2
+// P__2:cap_switch_attr_switch,cap_switch_attr_switch_val_on,cap_switch_attr_switch,cap_switch_attr_switch_val_off
+// P__2_insert_metadata_here
+
+assert P__3 {
+  // there is no situation where C occurs (e.g. the switch is automatically off)
+  no r : IoTApp.rules, action : r.commands {
+    action.attribute = cap_switch_attr_switch
+    action.value     = cap_switch_attr_switch_val_off
+    (some predecessor : r.*(~connected), action' : predecessor.triggers, cond: predecessor.conditions {
+    // caused by some path of events
+    // that does not have X (e.g. NIGHT mode)
+    // e.g. check that all events on the paths e.g. is an event that is not NIGHT mode, and is not preceded by NIGHT mode
+        not {
+        (
+        {
+            action'.attribute = cap_switch_attr_switch
+            (no action'.value and cond.attribute = action'.attribute and cond.value = cap_switch_attr_switch_val_on) or action'.value     = cap_switch_attr_switch_val_on
+            
+        }
+        ) 
+        or
+        (
+            some predecessor' : predecessor.*(~connected), action'' : predecessor'.triggers, cond'' : predecessor'.conditions {
+                predecessor != r
+                action''.attribute = cap_switch_attr_switch
+                (no action''.value and cond''.attribute = action''.attribute and cond''.value = cap_switch_attr_switch_val_on) or action''.value     = cap_switch_attr_switch_val_on
+                
+            }
+        )
+        // P__3_insert_more_here
+        }
+    }) 
+  }
+}
+check P__3
+// P__3:cap_switch_attr_switch,cap_switch_attr_switch_val_off,cap_switch_attr_switch,cap_switch_attr_switch_val_on
+// P__3_insert_metadata_here
+
+assert P__4 {
+  // there is no situation where C occurs (e.g. the switch is automatically off)
+  no r : IoTApp.rules, action : r.commands {
+    action.attribute = cap_state_attr_runIn
+    action.value     = cap_state_attr_runIn_val_on
+    (some predecessor : r.*(~connected), action' : predecessor.triggers, cond: predecessor.conditions {
+    // caused by some path of events
+    // that does not have X (e.g. NIGHT mode)
+    // e.g. check that all events on the paths e.g. is an event that is not NIGHT mode, and is not preceded by NIGHT mode
+        not {
+        (
+        {
+            action'.attribute = cap_switch_attr_switch
+            (no action'.value and cond.attribute = action'.attribute and cond.value = cap_switch_attr_switch_val_on) or action'.value     = cap_switch_attr_switch_val_on
+            
+        }
+        ) 
+        or
+        (
+            some predecessor' : predecessor.*(~connected), action'' : predecessor'.triggers, cond'' : predecessor'.conditions {
+                predecessor != r
+                action''.attribute = cap_switch_attr_switch
+                (no action''.value and cond''.attribute = action''.attribute and cond''.value = cap_switch_attr_switch_val_on) or action''.value     = cap_switch_attr_switch_val_on
+                
+            }
+        )
+        // P__4_insert_more_here
+        }
+    }) 
+  }
+}
+check P__4
+// P__4:cap_state_attr_runIn,cap_state_attr_runIn_val_on,cap_switch_attr_switch,cap_switch_attr_switch_val_on
+// P__4_insert_metadata_here
