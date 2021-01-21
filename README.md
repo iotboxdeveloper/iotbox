@@ -6,7 +6,13 @@ Using that, we can 'guess' if a given trace was produced from the same smart hom
 e.g. if there are actions that cannot be explained by the executions paths that we identified, then it's a different smart home,
 or if there are actions that we expect given an trace, but it's not present, then it's a different smart home.
 
-This helps to defend the smart home against unexpected code changes (coming from a compromised, upstream version of the SmartThings app), or latent behavior that's executed through dynamic method invocation.
+This helps to defend the smart home against unexpected code changes (coming from a compromised, upstream version of the SmartThings app), or latent behavior that's executed through dynamic method invocation (e.g. GStrings).
+
+Our project can analyse apps of SmartThings Classic and IFTTT, but our prototype that 'enforces' the policy only works for SmartThings classic.
+The general idea of this project should be applicable to other models of IoT apps, but we focused our experiments on only these two platforms.
+We work with apps that can be analysed by the IOTCOM project. If the scope of that project increases to allow apps of other platforms,
+then they can be analysed by this project too.
+These apps go into https://graph.api.smartthings.com/ide/apps.
 
 This GitHub repository is the replication package, and the following sections provide instructions on replicating the results.
 
@@ -18,7 +24,7 @@ This GitHub repository is the replication package, and the following sections pr
 
 # Obtaining evaluation results (Table II, III)
 
-This is the heart of our findings.
+These are the key findings.
 To quickly reproduce the results in the paper, run `sh test.sh`. 
 This will produce all the numbers required to check the results in Table II and III.
 
@@ -68,6 +74,9 @@ The 4 cases discussed in Table I are given in individual_app_violations. We modi
 The total violations can be counted using `ls -la all_individual_app_violations/*xml | wc`.
 These violations were found using IOTCOM (https://cse.unl.edu/~hbagheri/publications/2020ISSTA.pdf).
 
+## Breakdown of violations
+Our work is largely based on IOTCOM, which detects coordination threats and violations of safety properties.
+Most of the 'false positive' violations come from the coordination threats, which suggests that these rules will need further refinement to be deployed in a smart home.
 
 # Description of scripts
 
@@ -79,7 +88,7 @@ First, run `generate_events_randomly` and wait for it to collect the necessary i
 * generate_events_randomly.py: <cookie_str> <location> <does time matter: T/F>
 	Get <cookie_str> by navigating to the SmartThings IDE, and inspect the Network tab under developer tools. Copy the cookie and paste it in here. 
 	<location> is the uuid that is produced under SmartThings. This is where the devices are located at.
-	If the apps model time, <does time matter> is T. If no time-related function is used, then the simulator runs quite a little faster, by using 'F'
+	If the apps model time, <does time matter> is T. If no time-related function is used, then the simulator runs quite a little faster, and you can skip the time-related processing by indicating 'F'
 
 ## scripts for offline simulator
 * world.py: <path to alloy stage> <number of sequences> <model physical channels?>
@@ -109,7 +118,7 @@ Note that this requires Java 8.
 * is_trace_accepted_by_model.py: compares the trace to the model, and prints out the percentage of traces that were accepted
 
 
-## Script to visualize
+## Script to visualize path
 * python3 path_visualizer.py: produces a simple visualization of the paths that lead to a given action
 e.g. `python3 path_visualizer.py alloy/run_20201008_Bundle10_Safe/stage/newHoldPairs.txt lock switch`
 produces a visualization of path from a `switch` event to a `lock` event
