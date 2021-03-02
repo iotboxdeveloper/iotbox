@@ -3,9 +3,9 @@ import sys
 
 new_hold_pairs_file = sys.argv[1]
 
-desired_command_attribute = sys.argv[2]
+desired_command_attributes = sys.argv[2].split(',')
 
-desired_event_attribute = sys.argv[3]
+desired_event_attributes = sys.argv[3].split(',')
 
 template = """
 digraph Automata {{
@@ -30,10 +30,18 @@ with open(new_hold_pairs_file) as infile:
         line_components = line.split(',')
         command_attr, command_val = line_components[:2]
 
-        if desired_command_attribute.lower() not in command_attr.lower() :
+        has_desired_command_attribute = False
+        for desired_command_attribute in desired_command_attributes:
+            if desired_command_attribute.lower() in command_attr.lower() :
+                has_desired_command_attribute = True
+        if not has_desired_command_attribute:
             continue
 
-        if len(line_components) >= 4 and desired_event_attribute.lower() not in line_components[2].lower():
+        has_desired_event_attribute = False
+        for desired_event_attribute in desired_event_attributes:
+            if len(line_components) < 4 or len(line_components) >= 4 and desired_event_attribute.lower() in line_components[2].lower():
+                has_desired_event_attribute = True
+        if not has_desired_event_attribute:
             continue
 
         print('ok', line_no)
