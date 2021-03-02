@@ -10,7 +10,9 @@ This helps to defend the smart home against unexpected code changes (coming from
 
 Our project can analyse apps of SmartThings Classic and IFTTT, but our prototype that 'enforces' the policy only works for SmartThings classic.
 The general idea of this project should be applicable to other models of IoT apps, but we focused our experiments on only these two platforms.
-We work with apps that can be analysed by the IOTCOM project. If the scope of that project increases to allow apps of other platforms,
+We work with apps that can be analysed by the IOTCOM project.
+(We thank the IOTCOM researchers and developers for their excellent work and replication package, without which we could not have completed this study)
+If the scope of that project increases to allow apps of other platforms,
 then they can be analysed by this project too.
 These apps go into https://graph.api.smartthings.com/ide/apps.
 
@@ -78,6 +80,45 @@ These violations were found using IOTCOM (https://cse.unl.edu/~hbagheri/publicat
 Our work is largely based on IOTCOM, which detects coordination threats and violations of safety properties.
 Most of the 'false positive' violations come from the coordination threats, which suggests that these rules will need further refinement to be deployed in a smart home.
 
+|Property| # violations | Property description |
+|-----|:-----:|--------------------------------|
+|t1   | 18  |           chain triggering        |
+|t2   | 19  |           condition enabling         |
+|t3   | 21  |            condition disabling       |
+|t4   | 325 |          loop-triggering       |
+|t5   | 28  |           conflicting actions        |
+|t6   | 15  |         repeated actions       |
+|t7   | 21  |           guaranteed actions         |
+|P1   | 7   |           DON'T turn off the Heater WHEN temperature is low and location mode is Night        |
+|P2   | 3   |           DON'T turn on the AC WHEN location mode is Away       |
+|P3   | 2   |           DON'T turn on The bedroom’s light WHEN the bedroom’s door is closed        |
+|P4   | 2   |        DON'T unlock The main door WHEN location mode is Away       |
+|P5   | 7   |           DON'T turn off The living room’s bulb WHEN someone is at home        |
+|P6   | 10  |           DON'T turn off The AC at night when temperature is high        |
+|P9   | 3   |           don't turn off the living room’s bulb...        |
+|P10  | 5   |          DON'T turn on living room’s bulb at night WHEN no one is at home and vacation mode         |
+|P11  | 3   |          don't turn off the living room’s bulb when we go away/when we go vacation/when motion is inactive  or if user not present         |
+|P12  | 5   |          DON'T turn on a dim bulb WHEN no one is at home        |
+|P13  | 2   |          change location mode to Away WHEN no one is at home       |
+|P14  | 3   |          change location mode to Home WHEN some one is at home        |
+|P15  | 5   |          DON'T turn on the heater WHEN we go away or if the door opens         |
+|P16  | 3   |          DON'T open the door WHEN we go Away        |
+|P17  | 6   |          DON'T turn off the Security device WHEN user is not present        |
+|P18  | 4   |          DON'T turn off The alarm WHEN smoke is detected        |
+|P19  | 5   |           Intensity changed and door unlocked (covert attack)         |
+|P20  | 7   |          DON'T lock the door WHEN smoke is detected       |
+|P21  | 5   |          DON'T open the door WHEN smoke is detected because of heater       |
+|P22  | 5   |          DON'T open the unlock the door WHEN smoke is detected because of heater        |
+|P23  | 5   |           DON'T open the door WHEN motion is active because of fan       |
+|P24  | 5   |          DON'T unlock the door WHEN motion is active because of fan         |
+|P26  | 5   |       DON'T change location mode WHEN tempreature is changed       |
+|P27  | 5   |           DON'T change location mode WHEN smoke is detected        |
+|P28  | 9   |           DON'T switch on bulb/heater WHEN iluminance is changed         |
+|P29  | 4   |          DON'T change mode WHEN motion is active because of alarm siren        |
+
+Total from t1-7: 447
+Total from P*: 140
+
 # Description of scripts
 
 ## Scripts related to exercising the SmartThings simulator
@@ -87,7 +128,7 @@ First, run `generate_events_randomly` and wait for it to collect the necessary i
 * collect_logs_for_dsm.py: <cookie_str> <location> <identifier to save file as>
 * generate_events_randomly.py: <cookie_str> <location> <does time matter: T/F>
 	Get <cookie_str> by navigating to the SmartThings IDE, and inspect the Network tab under developer tools. Copy the cookie and paste it in here. 
-	<location> is the uuid that is produced under SmartThings. This is where the devices are located at.
+	`<location>` is the uuid that is produced under SmartThings. This is where the devices are located at.
 	If the apps model time, <does time matter> is T. If no time-related function is used, then the simulator runs quite a little faster, and you can skip the time-related processing by indicating 'F'
 
 ## scripts for offline simulator
