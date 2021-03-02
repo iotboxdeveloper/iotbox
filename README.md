@@ -89,32 +89,32 @@ Most of the 'false positive' violations come from the coordination threats, whic
 |t5   | 28  |           conflicting actions        |
 |t6   | 15  |         repeated actions       |
 |t7   | 21  |           guaranteed actions         |
-|P1   | 7   |           DON'T turn off the Heater WHEN temperature is low and location mode is Night        |
-|P2   | 3   |           DON'T turn on the AC WHEN location mode is Away       |
-|P3   | 2   |           DON'T turn on The bedroom’s light WHEN the bedroom’s door is closed        |
-|P4   | 2   |        DON'T unlock The main door WHEN location mode is Away       |
-|P5   | 7   |           DON'T turn off The living room’s bulb WHEN someone is at home        |
-|P6   | 10  |           DON'T turn off The AC at night when temperature is high        |
+|P1   | 7   |           don't turn off the Heater when temperature is low and location mode is Night        |
+|P2   | 3   |           don't turn on the AC when location mode is Away       |
+|P3   | 2   |           don't turn on The bedroom’s light when the bedroom’s door is closed        |
+|P4   | 2   |        don't unlock The main door when location mode is Away       |
+|P5   | 7   |           don't turn off The living room’s bulb when someone is at home        |
+|P6   | 10  |           don't turn off The AC at night when temperature is high        |
 |P9   | 3   |           don't turn off the living room’s bulb...        |
-|P10  | 5   |          DON'T turn on living room’s bulb at night WHEN no one is at home and vacation mode         |
+|P10  | 5   |          don't turn on living room’s bulb at night when no one is at home and vacation mode         |
 |P11  | 3   |          don't turn off the living room’s bulb when we go away/when we go vacation/when motion is inactive  or if user not present         |
-|P12  | 5   |          DON'T turn on a dim bulb WHEN no one is at home        |
-|P13  | 2   |          change location mode to Away WHEN no one is at home       |
-|P14  | 3   |          change location mode to Home WHEN some one is at home        |
-|P15  | 5   |          DON'T turn on the heater WHEN we go away or if the door opens         |
-|P16  | 3   |          DON'T open the door WHEN we go Away        |
-|P17  | 6   |          DON'T turn off the Security device WHEN user is not present        |
-|P18  | 4   |          DON'T turn off The alarm WHEN smoke is detected        |
+|P12  | 5   |          don't turn on a dim bulb when no one is at home        |
+|P13  | 2   |          change location mode to Away when no one is at home       |
+|P14  | 3   |          change location mode to Home when some one is at home        |
+|P15  | 5   |          don't turn on the heater when we go away or if the door opens         |
+|P16  | 3   |          don't open the door when we go Away        |
+|P17  | 6   |          don't turn off the Security device when user is not present        |
+|P18  | 4   |          don't turn off The alarm when smoke is detected        |
 |P19  | 5   |           Intensity changed and door unlocked (covert attack)         |
-|P20  | 7   |          DON'T lock the door WHEN smoke is detected       |
-|P21  | 5   |          DON'T open the door WHEN smoke is detected because of heater       |
-|P22  | 5   |          DON'T open the unlock the door WHEN smoke is detected because of heater        |
-|P23  | 5   |           DON'T open the door WHEN motion is active because of fan       |
-|P24  | 5   |          DON'T unlock the door WHEN motion is active because of fan         |
-|P26  | 5   |       DON'T change location mode WHEN tempreature is changed       |
-|P27  | 5   |           DON'T change location mode WHEN smoke is detected        |
-|P28  | 9   |           DON'T switch on bulb/heater WHEN iluminance is changed         |
-|P29  | 4   |          DON'T change mode WHEN motion is active because of alarm siren        |
+|P20  | 7   |          don't lock the door when smoke is detected       |
+|P21  | 5   |          don't open the door when smoke is detected because of heater       |
+|P22  | 5   |          don't open the unlock the door when smoke is detected because of heater        |
+|P23  | 5   |           don't open the door when motion is active because of fan       |
+|P24  | 5   |          don't unlock the door when motion is active because of fan         |
+|P26  | 5   |       don't change location mode when tempreature is changed       |
+|P27  | 5   |           don't change location mode when smoke is detected        |
+|P28  | 9   |           don't switch on bulb/heater when iluminance is changed         |
+|P29  | 4   |          don't change mode when motion is active because of alarm siren        |
 
 Total from t1-7: 447
 Total from P*: 140
